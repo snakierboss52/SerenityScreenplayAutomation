@@ -1,14 +1,11 @@
 package Steps;
 
-import Tasks.DondeVasAComer;
-import Tasks.Login;
-import Tasks.LoginUser;
+import Tasks.*;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-import net.serenitybdd.screenplay.Actor;
 
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 
@@ -28,6 +25,8 @@ public class HappyPath{
 
                 theActorCalled("Jorge").attemptsTo(LoginUser.inApp());
                 theActorCalled("Jorge").attemptsTo(DondeVasAComer.paraLlevar());
+                theActorCalled("Jorge").attemptsTo(Menu.inPersonalizado());
+                theActorCalled("Jorge").attemptsTo(Personalizado.inTamanoMuy());
                 Thread.sleep(5000);
 
         }
