@@ -1,12 +1,10 @@
 package UserInterface;
 
-import io.appium.java_client.android.AndroidElement;
-import io.appium.java_client.pagefactory.AndroidFindBy;
-import net.serenitybdd.core.pages.WebElementFacade;
+
 import net.serenitybdd.screenplay.targets.Target;
-import net.thucydides.core.pages.PageObject;
+
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+
 
 public class LoginPage{
 

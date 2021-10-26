@@ -2,9 +2,10 @@ package Steps;
 
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
-import net.serenitybdd.screenplay.Actor;
+
 import net.serenitybdd.screenplay.actors.OnlineCast;
 
 import static net.serenitybdd.screenplay.actors.OnStage.setTheStage;
@@ -17,8 +18,7 @@ import static Utils.DriverUtil.setDriver;
 public class Hook{
 
 
-    //@Managed(driver = "appium")
-    //WebDriver appium;
+
     public static AndroidDriver<MobileElement> driver;
 
 
