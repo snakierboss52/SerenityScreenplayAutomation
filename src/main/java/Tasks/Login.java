@@ -14,9 +14,11 @@ import static UserInterface.LoginPage.*;
 public class Login implements Task {
 
     public String email;
+    public String pass;
 
-    public Login (String email){
+    public Login (String email, String pass){
         this.email = email;
+        this.pass = pass;
     }
 
     @Override
@@ -27,13 +29,14 @@ public class Login implements Task {
             e.printStackTrace();
         }
         jorge.attemptsTo(Enter.theValue(email).into(emailStore));
+        jorge.attemptsTo(Enter.theValue(pass).into(password));
         jorge.attemptsTo(Click.on(EntrarButton));
         jorge.attemptsTo(Click.on(skipVideo));
 
     }
 
 
-    public static Performable inStore(String email) {
-        return Tasks.instrumented(Login.class, email);
+    public static Performable inStore(String email, String pass) {
+        return Tasks.instrumented(Login.class, email, pass);
     }
 }

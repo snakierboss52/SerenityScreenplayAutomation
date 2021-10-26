@@ -1,15 +1,16 @@
 package Tasks;
 
 import net.serenitybdd.screenplay.Actor;
+import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 
+import static UserInterface.SeleccionarIngredientePage.arrozIntegral;
 
-import static UserInterface.DondeVasAComerPage.paraLlevar;
 
 
-public class DondeVasAComer implements Task {
+public class SeleccionarIngrediente implements Task {
 
     @Override
     public <T extends Actor> void performAs(T jorge) {
@@ -18,11 +19,11 @@ public class DondeVasAComer implements Task {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        jorge.attemptsTo(Click.on(paraLlevar));
+        jorge.attemptsTo(Click.on(arrozIntegral));
     }
 
-    public static DondeVasAComer paraLlevar() {
-        return Tasks.instrumented(DondeVasAComer.class);
+    public static Performable seleccionarIngredienteBase() {
+        return Tasks.instrumented(SeleccionarIngrediente.class);
     }
 
 }

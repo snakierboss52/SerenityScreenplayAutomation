@@ -110,8 +110,8 @@
                     <includes>
 
                         <!-- <include>**/testcases/Parameterization.java</include> -->
-                        <include>**/runner/**/*.java</include>
-                        <include>**/runner/*.java</include>
+                        <include>**/Runner/**/*.java</include>
+                        <include>**/Runner/*.java</include>
 
                     </includes>
 
