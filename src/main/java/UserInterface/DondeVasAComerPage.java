@@ -3,7 +3,7 @@ package UserInterface;
 
 import net.serenitybdd.screenplay.targets.Target;
 
-import org.openqa.selenium.By;
+import net.serenitybdd.core.annotations.findby.By;
 
 public class DondeVasAComerPage {
 

@@ -28,7 +28,9 @@ public class HappyPath{
                 theActorCalled("Jorge").attemptsTo(DondeVasAComer.paraLlevar());
                 theActorCalled("Jorge").attemptsTo(Menu.inPersonalizado());
                 theActorCalled("Jorge").attemptsTo(Personalizado.inTamanoMuy());
-                theActorCalled("Jorge").attemptsTo(SeleccionarIngrediente.seleccionarIngredienteBase());
+                theActorCalled("Jorge").attemptsTo(SeleccionarIngrediente.inIngrediente());
+
+
                 Thread.sleep(5000);
 
         }
