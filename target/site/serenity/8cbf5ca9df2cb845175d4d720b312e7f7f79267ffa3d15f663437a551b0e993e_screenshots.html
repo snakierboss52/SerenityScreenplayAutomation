@@ -129,7 +129,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 26-10-2021 12:30</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 26-10-2021 17:46</span>
     <br style="clear:left"/>
 </div>
 
@@ -164,9 +164,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">User create order with muy Ensalada con pollo crispy
+                                <span class="error-color">User create order with muy Ensalada con pollo crispy
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -187,13 +187,54 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">No such session exception: A session is either terminated or not started</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.NoSuchSessionException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)<br />io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)<br />io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)<br />io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)<br />Steps.Hook.tearDown(Hook.java:36)<br />cucumber.runner.UnskipableStep.executeStep(UnskipableStep.java:22)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="#" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="25f7850899bd3a2b938f14898be51bb901291bb8231448da915d8f2512c8c4f6.png" title=" Example: {storeEmail=muy83-ag1@muy.com.co, password=muy83-ag, numberPhone=3005302178, orderMode=Para llevar, brand=Pecado, sugerido=Ensalada con pollo crispy, size=Gran Pecado}" width="648"/>
-                <img src="25f7850899bd3a2b938f14898be51bb901291bb8231448da915d8f2512c8c4f6.png" title=" Given Store employee login into application with muy83-ag1@muy.com.co and muy83-ag and skip the welcome video" width="648"/>
+                <img src="978581a03177225ba9777a54a195f2aaf96b996b0141c1fceb0791da3be5cd93.png" title=" Example: {storeEmail=muy83-ag1@muy.com.co, password=muy83-ag, numberPhone=3005302178, orderMode=Para llevar, brand=Pecado, sugerido=Ensalada con pollo crispy, size=Gran Pecado}" width="648"/>
+                <img src="978581a03177225ba9777a54a195f2aaf96b996b0141c1fceb0791da3be5cd93.png" title=" Given Store employee login into application with muy83-ag1@muy.com.co and muy83-ag and skip the welcome video" width="648"/>
                 <img src="767dc4dcf86419e50e34680ca17930fcddf7485ddc5a80c744dcdb3b58e92559.png" title=" Jorge login" width="648"/>
                 <img src="767dc4dcf86419e50e34680ca17930fcddf7485ddc5a80c744dcdb3b58e92559.png" title=" Jorge enters 'muy83-ag1@muy.com.co' into Correo de la tienda" width="648"/>
                 <img src="feba7bd95145cf84015ea55e41b3b75b788b0c67972df7271b8dd3cad0ffba24.png" title=" Jorge enters 'muy83-ag1@muy.com.co' into Correo de la tienda (completed)" width="648"/>
+                <img src="feba7bd95145cf84015ea55e41b3b75b788b0c67972df7271b8dd3cad0ffba24.png" title=" Jorge enters 'muy83-ag' into Password de la tienda" width="648"/>
+                <img src="feba7bd95145cf84015ea55e41b3b75b788b0c67972df7271b8dd3cad0ffba24.png" title=" Jorge enters 'muy83-ag' into Password de la tienda (completed)" width="648"/>
                 <img src="feba7bd95145cf84015ea55e41b3b75b788b0c67972df7271b8dd3cad0ffba24.png" title=" Jorge clicks on Boton de entrar" width="648"/>
                 <img src="feba7bd95145cf84015ea55e41b3b75b788b0c67972df7271b8dd3cad0ffba24.png" title=" Jorge clicks on Boton de entrar (completed)" width="648"/>
                 <img src="feba7bd95145cf84015ea55e41b3b75b788b0c67972df7271b8dd3cad0ffba24.png" title=" Jorge clicks on Saltar video" width="648"/>
@@ -205,34 +246,61 @@
                 <img src="a73434f4f2fdcb474c72b06b0eb5fbcc32375af1e1fedd2a276d99e210ae3ea7.png" title=" Jorge enters '3005302178' into Numero De Telefono" width="648"/>
                 <img src="dbebab5fdccfc35b19486277c0c88994b5fe9a5718fb9aecf59ff9fa760e6d5a.png" title=" Jorge enters '3005302178' into Numero De Telefono (completed)" width="648"/>
                 <img src="dbebab5fdccfc35b19486277c0c88994b5fe9a5718fb9aecf59ff9fa760e6d5a.png" title=" Jorge clicks on Boton continuar" width="648"/>
-                <img src="7e3538caab08eb5fff74b850bdea98e79d87c7c3201bce9f9158e3ef33f854b9.png" title=" Jorge clicks on Boton continuar (completed)" width="648"/>
-                <img src="7e3538caab08eb5fff74b850bdea98e79d87c7c3201bce9f9158e3ef33f854b9.png" title=" Jorge login user (completed)" width="648"/>
-                <img src="7e3538caab08eb5fff74b850bdea98e79d87c7c3201bce9f9158e3ef33f854b9.png" title=" Jorge donde vas a comer" width="648"/>
+                <img src="87215887554cf029837fa3e6a69b812d53dad187c68e1874b31755cc754ab5ca.png" title=" Jorge clicks on Boton continuar (completed)" width="648"/>
+                <img src="87215887554cf029837fa3e6a69b812d53dad187c68e1874b31755cc754ab5ca.png" title=" Jorge login user (completed)" width="648"/>
+                <img src="87215887554cf029837fa3e6a69b812d53dad187c68e1874b31755cc754ab5ca.png" title=" Jorge donde vas a comer" width="648"/>
                 <img src="3d0d88521009ea861d5ccfc55898f606e414269003c6db76e335522e412b23d1.png" title=" Jorge clicks on Para llevar" width="648"/>
                 <img src="3d0d88521009ea861d5ccfc55898f606e414269003c6db76e335522e412b23d1.png" title=" Jorge clicks on Para llevar (completed)" width="648"/>
                 <img src="3d0d88521009ea861d5ccfc55898f606e414269003c6db76e335522e412b23d1.png" title=" Jorge donde vas a comer (completed)" width="648"/>
                 <img src="3d0d88521009ea861d5ccfc55898f606e414269003c6db76e335522e412b23d1.png" title=" Jorge menu" width="648"/>
-                <img src="83a04fc42173fc2aa0bf16b06cee6f3ad45edeeb7572178468d1913bc8611bd5.png" title=" Jorge clicks on Promo muy x3" width="648"/>
-                <img src="33ca3df837f4d7ba36feb566b60582932d722e1a5240dd4a78129f425b48d07c.png" title=" Jorge clicks on Promo muy x3 (completed)" width="648"/>
-                <img src="33ca3df837f4d7ba36feb566b60582932d722e1a5240dd4a78129f425b48d07c.png" title=" Jorge menu (completed)" width="648"/>
-                <img src="33ca3df837f4d7ba36feb566b60582932d722e1a5240dd4a78129f425b48d07c.png" title=" Jorge personalizado" width="648"/>
-                <img src="10a21826eaff7345d455c44d9c67e2538a84102962621f76b877ef473b424540.png" title=" Jorge clicks on Seleccionar tama&ntilde;o" width="648"/>
-                <img src="2ddb72ebacded11194701ba7246dc8df7c0728f9f75cf407dfd1c97600716a9d.png" title=" Jorge clicks on Seleccionar tama&ntilde;o (completed)" width="648"/>
-                <img src="2ddb72ebacded11194701ba7246dc8df7c0728f9f75cf407dfd1c97600716a9d.png" title=" Jorge personalizado (completed)" width="648"/>
-                <img src="2ddb72ebacded11194701ba7246dc8df7c0728f9f75cf407dfd1c97600716a9d.png" title=" Jorge seleccionar ingrediente" width="648"/>
+                <img src="a4e8a52249f23fdecd55b8d653c2d1d9b97e9e82432aa4dc4baea6c85c6ace31.png" title=" Jorge clicks on Promo muy x3" width="648"/>
+                <img src="17684361640d7a5de07ae3c4221283bc0a427ee737a024b3d742524a6d92d06e.png" title=" Jorge clicks on Promo muy x3 (completed)" width="648"/>
+                <img src="17684361640d7a5de07ae3c4221283bc0a427ee737a024b3d742524a6d92d06e.png" title=" Jorge menu (completed)" width="648"/>
+                <img src="17684361640d7a5de07ae3c4221283bc0a427ee737a024b3d742524a6d92d06e.png" title=" Jorge personalizado" width="648"/>
+                <img src="54fb66bdbda5d6330b9c58397da8c6f62a92024082cabd5b0eda117fea3449c7.png" title=" Jorge clicks on Seleccionar tama&ntilde;o" width="648"/>
+                <img src="9aad7429e5fe841cfa117a3d8f121f6f06a9a2deb4e23eee3acac32185b4fc96.png" title=" Jorge clicks on Seleccionar tama&ntilde;o (completed)" width="648"/>
+                <img src="9aad7429e5fe841cfa117a3d8f121f6f06a9a2deb4e23eee3acac32185b4fc96.png" title=" Jorge personalizado (completed)" width="648"/>
+                <img src="9aad7429e5fe841cfa117a3d8f121f6f06a9a2deb4e23eee3acac32185b4fc96.png" title=" Jorge seleccionar ingrediente" width="648"/>
                 <img src="05e43298c3cbc038b940f6d3818967958283c38b8906da5011156ed467604c43.png" title=" Jorge clicks on Ingrediente base arroz integral" width="648"/>
                 <img src="05e43298c3cbc038b940f6d3818967958283c38b8906da5011156ed467604c43.png" title=" Jorge clicks on Ingrediente base arroz integral (completed)" width="648"/>
-                <img src="05e43298c3cbc038b940f6d3818967958283c38b8906da5011156ed467604c43.png" title=" Jorge clicks on Boton siguiente" width="648"/>
-                <img src="ed7a66dcbe20af75bbab6ca25d3c5aeadf8bd85ff9992be0f7fb5fbd27a9d651.png" title=" Jorge clicks on Boton siguiente (completed)" width="648"/>
-                <img src="ed7a66dcbe20af75bbab6ca25d3c5aeadf8bd85ff9992be0f7fb5fbd27a9d651.png" title=" Jorge seleccionar ingrediente (completed)" width="648"/>
-                <img src="a9ce4e1fa90eb29c971d619b0e6d63d24e59948ff249a81fff92623daab747da.png" title=" When User login into application with 3005302178 and select his Para llevar, the Pecado, his Ensalada con pollo crispy with Gran Pecado (completed)" width="648"/>
-                <img src="a9ce4e1fa90eb29c971d619b0e6d63d24e59948ff249a81fff92623daab747da.png" title=" Then User create the order" width="648"/>
-                <img src="a9ce4e1fa90eb29c971d619b0e6d63d24e59948ff249a81fff92623daab747da.png" title=" Then User create the order (completed)" width="648"/>
-                <img src="e2407d5fec5c10fcd4cd5f934ab670035aef78a21e48ad620e19a9048337fe83.png" title=" Example: {storeEmail=muy83-ag1@muy.com.co, password=muy83-ag, numberPhone=3005302178, orderMode=Para llevar, brand=Muy, sugerido=Paisa, size=Muy Muy}" width="648"/>
-                <img src="e2407d5fec5c10fcd4cd5f934ab670035aef78a21e48ad620e19a9048337fe83.png" title=" Given Store employee login into application with muy83-ag1@muy.com.co and muy83-ag and skip the welcome video" width="648"/>
-                <img src="e2407d5fec5c10fcd4cd5f934ab670035aef78a21e48ad620e19a9048337fe83.png" title=" Jorge login" width="648"/>
+                <img src="05e43298c3cbc038b940f6d3818967958283c38b8906da5011156ed467604c43.png" title=" Jorge clicks on Ingrediente grano frijo rojo" width="648"/>
+                <img src="45aff91eb81f0d79ec35c850f807da25b4d95502337c024bc3bc08290a97141a.png" title=" Jorge clicks on Ingrediente grano frijo rojo (completed)" width="648"/>
+                <img src="45aff91eb81f0d79ec35c850f807da25b4d95502337c024bc3bc08290a97141a.png" title=" Jorge clicks on Espinaca y tomate" width="648"/>
+                <img src="a5edeebdf96891d4067b0f63819f9213d38a70db1885c212f06b7a986ce6e4d2.png" title=" Jorge clicks on Espinaca y tomate (completed)" width="648"/>
+                <img src="a5edeebdf96891d4067b0f63819f9213d38a70db1885c212f06b7a986ce6e4d2.png" title=" Jorge clicks on Pollo a a plancha" width="648"/>
+                <img src="91fa208ff4d38bd56f6067c50860759e771d03302caf442e367761b1578e0d25.png" title=" Jorge clicks on Pollo a a plancha (completed)" width="648"/>
+                <img src="91fa208ff4d38bd56f6067c50860759e771d03302caf442e367761b1578e0d25.png" title=" Jorge clicks on Boton siguiente" width="648"/>
+                <img src="91fa208ff4d38bd56f6067c50860759e771d03302caf442e367761b1578e0d25.png" title=" Jorge clicks on Boton siguiente (completed)" width="648"/>
+                <img src="91fa208ff4d38bd56f6067c50860759e771d03302caf442e367761b1578e0d25.png" title=" Jorge clicks on Platano maduro" width="648"/>
+                <img src="d59ffd7ed020fcb51eeb8aeec1e07881cd53d63e70be2da558f5f9a8a27e3632.png" title=" Jorge clicks on Platano maduro (completed)" width="648"/>
+                <img src="d59ffd7ed020fcb51eeb8aeec1e07881cd53d63e70be2da558f5f9a8a27e3632.png" title=" Jorge clicks on Platano maduro" width="648"/>
+                <img src="7719150dce02231eb3dab364e9968cf5233c5daa7db79d707e5e5a2e2767bf10.png" title=" Jorge clicks on Platano maduro (completed)" width="648"/>
+                <img src="7719150dce02231eb3dab364e9968cf5233c5daa7db79d707e5e5a2e2767bf10.png" title=" Jorge clicks on Maiz tierno" width="648"/>
+                <img src="1722b5a2b95c7423d7303ce5800b3d0dc34390bdb1ca2c91391b8c3d08f2b498.png" title=" Jorge clicks on Maiz tierno (completed)" width="648"/>
+                <img src="1722b5a2b95c7423d7303ce5800b3d0dc34390bdb1ca2c91391b8c3d08f2b498.png" title=" Jorge clicks on Maiz tierno" width="648"/>
+                <img src="ca22dd779ca259a92e41e684d046aa35b4db3f52bf63e318b4dc8a0833bf5492.png" title=" Jorge clicks on Maiz tierno (completed)" width="648"/>
+                <img src="ca22dd779ca259a92e41e684d046aa35b4db3f52bf63e318b4dc8a0833bf5492.png" title=" Jorge clicks on Boton siguiente" width="648"/>
+                <img src="ca22dd779ca259a92e41e684d046aa35b4db3f52bf63e318b4dc8a0833bf5492.png" title=" Jorge clicks on Boton siguiente (completed)" width="648"/>
+                <img src="ca22dd779ca259a92e41e684d046aa35b4db3f52bf63e318b4dc8a0833bf5492.png" title=" Jorge clicks on Hogao" width="648"/>
+                <img src="4086614f82b2adb57718a36be1df26000f173ac16b1b9c449b90a47810ff01fb.png" title=" Jorge clicks on Hogao (completed)" width="648"/>
+                <img src="4086614f82b2adb57718a36be1df26000f173ac16b1b9c449b90a47810ff01fb.png" title=" Jorge clicks on Boton siguiente" width="648"/>
+                <img src="4086614f82b2adb57718a36be1df26000f173ac16b1b9c449b90a47810ff01fb.png" title=" Jorge clicks on Boton siguiente (completed)" width="648"/>
+                <img src="4086614f82b2adb57718a36be1df26000f173ac16b1b9c449b90a47810ff01fb.png" title=" Jorge clicks on Gaseosa Quatro 400 ml" width="648"/>
+                <img src="98bd6741047c30616612fa46ce363993a4355a640e24efdc7116839c2eafd4a3.png" title=" Jorge clicks on Gaseosa Quatro 400 ml (completed)" width="648"/>
+                <img src="98bd6741047c30616612fa46ce363993a4355a640e24efdc7116839c2eafd4a3.png" title=" Jorge clicks on Boton siguiente" width="648"/>
+                <img src="44645c1cbf37da4fd72df4fc5e84deddc5ee791a5f12357a6bf65b78b758faf3.png" title=" Jorge clicks on Boton siguiente (completed)" width="648"/>
+                <img src="44645c1cbf37da4fd72df4fc5e84deddc5ee791a5f12357a6bf65b78b758faf3.png" title=" Jorge clicks on Galleta de avena con pasas" width="648"/>
+                <img src="7ccbd8c22040ac9746a18eb34df0fa9dd0ce62246ed6337df6b69e596c6ebf49.png" title=" Jorge clicks on Galleta de avena con pasas (completed)" width="648"/>
+                <img src="7ccbd8c22040ac9746a18eb34df0fa9dd0ce62246ed6337df6b69e596c6ebf49.png" title=" Jorge clicks on Boton siguiente" width="648"/>
+                <img src="7ccbd8c22040ac9746a18eb34df0fa9dd0ce62246ed6337df6b69e596c6ebf49.png" title=" Jorge clicks on Boton siguiente (completed)" width="648"/>
+                <img src="7ccbd8c22040ac9746a18eb34df0fa9dd0ce62246ed6337df6b69e596c6ebf49.png" title=" Jorge seleccionar ingrediente (completed)" width="648"/>
+                <img src="767dc4dcf86419e50e34680ca17930fcddf7485ddc5a80c744dcdb3b58e92559.png" title=" Example: {storeEmail=muy83-ag1@muy.com.co, password=muy83-ag, numberPhone=3005302178, orderMode=Para llevar, brand=Muy, sugerido=Paisa, size=Muy Muy}" width="648"/>
+                <img src="767dc4dcf86419e50e34680ca17930fcddf7485ddc5a80c744dcdb3b58e92559.png" title=" Given Store employee login into application with muy83-ag1@muy.com.co and muy83-ag and skip the welcome video" width="648"/>
+                <img src="767dc4dcf86419e50e34680ca17930fcddf7485ddc5a80c744dcdb3b58e92559.png" title=" Jorge login" width="648"/>
                 <img src="767dc4dcf86419e50e34680ca17930fcddf7485ddc5a80c744dcdb3b58e92559.png" title=" Jorge enters 'muy83-ag1@muy.com.co' into Correo de la tienda" width="648"/>
                 <img src="feba7bd95145cf84015ea55e41b3b75b788b0c67972df7271b8dd3cad0ffba24.png" title=" Jorge enters 'muy83-ag1@muy.com.co' into Correo de la tienda (completed)" width="648"/>
+                <img src="feba7bd95145cf84015ea55e41b3b75b788b0c67972df7271b8dd3cad0ffba24.png" title=" Jorge enters 'muy83-ag' into Password de la tienda" width="648"/>
+                <img src="feba7bd95145cf84015ea55e41b3b75b788b0c67972df7271b8dd3cad0ffba24.png" title=" Jorge enters 'muy83-ag' into Password de la tienda (completed)" width="648"/>
                 <img src="feba7bd95145cf84015ea55e41b3b75b788b0c67972df7271b8dd3cad0ffba24.png" title=" Jorge clicks on Boton de entrar" width="648"/>
                 <img src="feba7bd95145cf84015ea55e41b3b75b788b0c67972df7271b8dd3cad0ffba24.png" title=" Jorge clicks on Boton de entrar (completed)" width="648"/>
                 <img src="feba7bd95145cf84015ea55e41b3b75b788b0c67972df7271b8dd3cad0ffba24.png" title=" Jorge clicks on Saltar video" width="648"/>
@@ -244,37 +312,64 @@
                 <img src="a73434f4f2fdcb474c72b06b0eb5fbcc32375af1e1fedd2a276d99e210ae3ea7.png" title=" Jorge enters '3005302178' into Numero De Telefono" width="648"/>
                 <img src="dbebab5fdccfc35b19486277c0c88994b5fe9a5718fb9aecf59ff9fa760e6d5a.png" title=" Jorge enters '3005302178' into Numero De Telefono (completed)" width="648"/>
                 <img src="dbebab5fdccfc35b19486277c0c88994b5fe9a5718fb9aecf59ff9fa760e6d5a.png" title=" Jorge clicks on Boton continuar" width="648"/>
-                <img src="7e3538caab08eb5fff74b850bdea98e79d87c7c3201bce9f9158e3ef33f854b9.png" title=" Jorge clicks on Boton continuar (completed)" width="648"/>
-                <img src="7e3538caab08eb5fff74b850bdea98e79d87c7c3201bce9f9158e3ef33f854b9.png" title=" Jorge login user (completed)" width="648"/>
-                <img src="7e3538caab08eb5fff74b850bdea98e79d87c7c3201bce9f9158e3ef33f854b9.png" title=" Jorge donde vas a comer" width="648"/>
+                <img src="8f3f2ef4d53129674200ce7ece069aa08604d248973c3ae9841476706d7a2e64.png" title=" Jorge clicks on Boton continuar (completed)" width="648"/>
+                <img src="8f3f2ef4d53129674200ce7ece069aa08604d248973c3ae9841476706d7a2e64.png" title=" Jorge login user (completed)" width="648"/>
+                <img src="8f3f2ef4d53129674200ce7ece069aa08604d248973c3ae9841476706d7a2e64.png" title=" Jorge donde vas a comer" width="648"/>
                 <img src="3d0d88521009ea861d5ccfc55898f606e414269003c6db76e335522e412b23d1.png" title=" Jorge clicks on Para llevar" width="648"/>
                 <img src="3d0d88521009ea861d5ccfc55898f606e414269003c6db76e335522e412b23d1.png" title=" Jorge clicks on Para llevar (completed)" width="648"/>
                 <img src="3d0d88521009ea861d5ccfc55898f606e414269003c6db76e335522e412b23d1.png" title=" Jorge donde vas a comer (completed)" width="648"/>
                 <img src="3d0d88521009ea861d5ccfc55898f606e414269003c6db76e335522e412b23d1.png" title=" Jorge menu" width="648"/>
-                <img src="753535787fa9d793098fc2598e21c057886816c4acde8edb223f599295528664.png" title=" Jorge clicks on Promo muy x3" width="648"/>
-                <img src="42847e077b8e12be5a397b5bb74f9865c40e7e5181010e21b797d8d9a242ce84.png" title=" Jorge clicks on Promo muy x3 (completed)" width="648"/>
-                <img src="42847e077b8e12be5a397b5bb74f9865c40e7e5181010e21b797d8d9a242ce84.png" title=" Jorge menu (completed)" width="648"/>
-                <img src="42847e077b8e12be5a397b5bb74f9865c40e7e5181010e21b797d8d9a242ce84.png" title=" Jorge personalizado" width="648"/>
-                <img src="16ff3c8b9f06a4e02881938c72fdc7d3796f7aa514a1d95cbde98c89ddbf038c.png" title=" Jorge clicks on Seleccionar tama&ntilde;o" width="648"/>
-                <img src="8925034e932dd90a9ebccc8047b7daffc2bb588432aa830a3280fc3207f70889.png" title=" Jorge clicks on Seleccionar tama&ntilde;o (completed)" width="648"/>
-                <img src="8925034e932dd90a9ebccc8047b7daffc2bb588432aa830a3280fc3207f70889.png" title=" Jorge personalizado (completed)" width="648"/>
-                <img src="8925034e932dd90a9ebccc8047b7daffc2bb588432aa830a3280fc3207f70889.png" title=" Jorge seleccionar ingrediente" width="648"/>
+                <img src="50008132c4a113c894dd69fc50461f7aab22420adc651694aaed58bf6eee8511.png" title=" Jorge clicks on Promo muy x3" width="648"/>
+                <img src="e7780942856b24e6d90bd2976f9c6439e7f47410b1e6017e364f87cd15479cb6.png" title=" Jorge clicks on Promo muy x3 (completed)" width="648"/>
+                <img src="e7780942856b24e6d90bd2976f9c6439e7f47410b1e6017e364f87cd15479cb6.png" title=" Jorge menu (completed)" width="648"/>
+                <img src="e7780942856b24e6d90bd2976f9c6439e7f47410b1e6017e364f87cd15479cb6.png" title=" Jorge personalizado" width="648"/>
+                <img src="5d08090035bacc0cb9f5d3aabc94d7086ea1f2fd400c0f1a465370c4f021ec40.png" title=" Jorge clicks on Seleccionar tama&ntilde;o" width="648"/>
+                <img src="4f787a67470c0d8082166398a57e9af45c6851c88295fd2aa7b2d687fa9d4b09.png" title=" Jorge clicks on Seleccionar tama&ntilde;o (completed)" width="648"/>
+                <img src="4f787a67470c0d8082166398a57e9af45c6851c88295fd2aa7b2d687fa9d4b09.png" title=" Jorge personalizado (completed)" width="648"/>
+                <img src="4f787a67470c0d8082166398a57e9af45c6851c88295fd2aa7b2d687fa9d4b09.png" title=" Jorge seleccionar ingrediente" width="648"/>
                 <img src="05e43298c3cbc038b940f6d3818967958283c38b8906da5011156ed467604c43.png" title=" Jorge clicks on Ingrediente base arroz integral" width="648"/>
                 <img src="05e43298c3cbc038b940f6d3818967958283c38b8906da5011156ed467604c43.png" title=" Jorge clicks on Ingrediente base arroz integral (completed)" width="648"/>
-                <img src="05e43298c3cbc038b940f6d3818967958283c38b8906da5011156ed467604c43.png" title=" Jorge clicks on Boton siguiente" width="648"/>
-                <img src="f3841c41b9d5403753c8dc4567711f118a4420f8606620a7a09d7208ef0ce65b.png" title=" Jorge clicks on Boton siguiente (completed)" width="648"/>
-                <img src="f3841c41b9d5403753c8dc4567711f118a4420f8606620a7a09d7208ef0ce65b.png" title=" Jorge seleccionar ingrediente (completed)" width="648"/>
-                <img src="a9ce4e1fa90eb29c971d619b0e6d63d24e59948ff249a81fff92623daab747da.png" title=" When User login into application with 3005302178 and select his Para llevar, the Muy, his Paisa with Muy Muy (completed)" width="648"/>
-                <img src="a9ce4e1fa90eb29c971d619b0e6d63d24e59948ff249a81fff92623daab747da.png" title=" Then User create the order" width="648"/>
-                <img src="a9ce4e1fa90eb29c971d619b0e6d63d24e59948ff249a81fff92623daab747da.png" title=" Then User create the order (completed)" width="648"/>
-                <img src="787b4a7e74a771f7cff6eee05f53462146da89004b272bf049e74954d13093eb.png" title=" Example: {storeEmail=muy83-ag1@muy.com.co, password=muy83-ag, numberPhone=3005302178, orderMode=Comer Aqui, brand=Muy, sugerido=Fresco, size=Muy}" width="648"/>
-                <img src="787b4a7e74a771f7cff6eee05f53462146da89004b272bf049e74954d13093eb.png" title=" Given Store employee login into application with muy83-ag1@muy.com.co and muy83-ag and skip the welcome video" width="648"/>
-                <img src="787b4a7e74a771f7cff6eee05f53462146da89004b272bf049e74954d13093eb.png" title=" Jorge login" width="648"/>
+                <img src="05e43298c3cbc038b940f6d3818967958283c38b8906da5011156ed467604c43.png" title=" Jorge clicks on Ingrediente grano frijo rojo" width="648"/>
+                <img src="a9ce4e1fa90eb29c971d619b0e6d63d24e59948ff249a81fff92623daab747da.png" title=" Jorge clicks on Ingrediente grano frijo rojo (completed)" width="648"/>
+                <img src="a9ce4e1fa90eb29c971d619b0e6d63d24e59948ff249a81fff92623daab747da.png" title=" Jorge clicks on Espinaca y tomate" width="648"/>
+                <img src="a5edeebdf96891d4067b0f63819f9213d38a70db1885c212f06b7a986ce6e4d2.png" title=" Jorge clicks on Espinaca y tomate (completed)" width="648"/>
+                <img src="a5edeebdf96891d4067b0f63819f9213d38a70db1885c212f06b7a986ce6e4d2.png" title=" Jorge clicks on Pollo a a plancha" width="648"/>
+                <img src="91fa208ff4d38bd56f6067c50860759e771d03302caf442e367761b1578e0d25.png" title=" Jorge clicks on Pollo a a plancha (completed)" width="648"/>
+                <img src="91fa208ff4d38bd56f6067c50860759e771d03302caf442e367761b1578e0d25.png" title=" Jorge clicks on Boton siguiente" width="648"/>
+                <img src="91fa208ff4d38bd56f6067c50860759e771d03302caf442e367761b1578e0d25.png" title=" Jorge clicks on Boton siguiente (completed)" width="648"/>
+                <img src="91fa208ff4d38bd56f6067c50860759e771d03302caf442e367761b1578e0d25.png" title=" Jorge clicks on Platano maduro" width="648"/>
+                <img src="d59ffd7ed020fcb51eeb8aeec1e07881cd53d63e70be2da558f5f9a8a27e3632.png" title=" Jorge clicks on Platano maduro (completed)" width="648"/>
+                <img src="d59ffd7ed020fcb51eeb8aeec1e07881cd53d63e70be2da558f5f9a8a27e3632.png" title=" Jorge clicks on Platano maduro" width="648"/>
+                <img src="7719150dce02231eb3dab364e9968cf5233c5daa7db79d707e5e5a2e2767bf10.png" title=" Jorge clicks on Platano maduro (completed)" width="648"/>
+                <img src="7719150dce02231eb3dab364e9968cf5233c5daa7db79d707e5e5a2e2767bf10.png" title=" Jorge clicks on Maiz tierno" width="648"/>
+                <img src="1722b5a2b95c7423d7303ce5800b3d0dc34390bdb1ca2c91391b8c3d08f2b498.png" title=" Jorge clicks on Maiz tierno (completed)" width="648"/>
+                <img src="1722b5a2b95c7423d7303ce5800b3d0dc34390bdb1ca2c91391b8c3d08f2b498.png" title=" Jorge clicks on Maiz tierno" width="648"/>
+                <img src="ca22dd779ca259a92e41e684d046aa35b4db3f52bf63e318b4dc8a0833bf5492.png" title=" Jorge clicks on Maiz tierno (completed)" width="648"/>
+                <img src="ca22dd779ca259a92e41e684d046aa35b4db3f52bf63e318b4dc8a0833bf5492.png" title=" Jorge clicks on Boton siguiente" width="648"/>
+                <img src="ca22dd779ca259a92e41e684d046aa35b4db3f52bf63e318b4dc8a0833bf5492.png" title=" Jorge clicks on Boton siguiente (completed)" width="648"/>
+                <img src="ca22dd779ca259a92e41e684d046aa35b4db3f52bf63e318b4dc8a0833bf5492.png" title=" Jorge clicks on Hogao" width="648"/>
+                <img src="4086614f82b2adb57718a36be1df26000f173ac16b1b9c449b90a47810ff01fb.png" title=" Jorge clicks on Hogao (completed)" width="648"/>
+                <img src="4086614f82b2adb57718a36be1df26000f173ac16b1b9c449b90a47810ff01fb.png" title=" Jorge clicks on Boton siguiente" width="648"/>
+                <img src="4086614f82b2adb57718a36be1df26000f173ac16b1b9c449b90a47810ff01fb.png" title=" Jorge clicks on Boton siguiente (completed)" width="648"/>
+                <img src="4086614f82b2adb57718a36be1df26000f173ac16b1b9c449b90a47810ff01fb.png" title=" Jorge clicks on Gaseosa Quatro 400 ml" width="648"/>
+                <img src="98bd6741047c30616612fa46ce363993a4355a640e24efdc7116839c2eafd4a3.png" title=" Jorge clicks on Gaseosa Quatro 400 ml (completed)" width="648"/>
+                <img src="98bd6741047c30616612fa46ce363993a4355a640e24efdc7116839c2eafd4a3.png" title=" Jorge clicks on Boton siguiente" width="648"/>
+                <img src="98bd6741047c30616612fa46ce363993a4355a640e24efdc7116839c2eafd4a3.png" title=" Jorge clicks on Boton siguiente (completed)" width="648"/>
+                <img src="98bd6741047c30616612fa46ce363993a4355a640e24efdc7116839c2eafd4a3.png" title=" Jorge clicks on Galleta de avena con pasas" width="648"/>
+                <img src="7ccbd8c22040ac9746a18eb34df0fa9dd0ce62246ed6337df6b69e596c6ebf49.png" title=" Jorge clicks on Galleta de avena con pasas (completed)" width="648"/>
+                <img src="7ccbd8c22040ac9746a18eb34df0fa9dd0ce62246ed6337df6b69e596c6ebf49.png" title=" Jorge clicks on Boton siguiente" width="648"/>
+                <img src="7ccbd8c22040ac9746a18eb34df0fa9dd0ce62246ed6337df6b69e596c6ebf49.png" title=" Jorge clicks on Boton siguiente (completed)" width="648"/>
+                <img src="7ccbd8c22040ac9746a18eb34df0fa9dd0ce62246ed6337df6b69e596c6ebf49.png" title=" Jorge seleccionar ingrediente (completed)" width="648"/>
+                <img src="766215f72c2dc5002e28a34817e973874f53fb4f1c4dcdccc5b6899b5d478e58.png" title=" Example: {storeEmail=muy83-ag1@muy.com.co, password=muy83-ag, numberPhone=3005302178, orderMode=Comer Aqui, brand=Muy, sugerido=Fresco, size=Muy}" width="648"/>
+                <img src="766215f72c2dc5002e28a34817e973874f53fb4f1c4dcdccc5b6899b5d478e58.png" title=" Given Store employee login into application with muy83-ag1@muy.com.co and muy83-ag and skip the welcome video" width="648"/>
+                <img src="766215f72c2dc5002e28a34817e973874f53fb4f1c4dcdccc5b6899b5d478e58.png" title=" Jorge login" width="648"/>
                 <img src="767dc4dcf86419e50e34680ca17930fcddf7485ddc5a80c744dcdb3b58e92559.png" title=" Jorge enters 'muy83-ag1@muy.com.co' into Correo de la tienda" width="648"/>
                 <img src="feba7bd95145cf84015ea55e41b3b75b788b0c67972df7271b8dd3cad0ffba24.png" title=" Jorge enters 'muy83-ag1@muy.com.co' into Correo de la tienda (completed)" width="648"/>
+                <img src="feba7bd95145cf84015ea55e41b3b75b788b0c67972df7271b8dd3cad0ffba24.png" title=" Jorge enters 'muy83-ag' into Password de la tienda" width="648"/>
+                <img src="feba7bd95145cf84015ea55e41b3b75b788b0c67972df7271b8dd3cad0ffba24.png" title=" Jorge enters 'muy83-ag' into Password de la tienda (completed)" width="648"/>
                 <img src="feba7bd95145cf84015ea55e41b3b75b788b0c67972df7271b8dd3cad0ffba24.png" title=" Jorge clicks on Boton de entrar" width="648"/>
-                <img src="f9b5cafa0fdb2cf6bd2d6a077f2dd1acab97424f0149dcd01c6defb67cc043bd.png" title=" Jorge clicks on Boton de entrar (completed)" width="648"/>
-                <img src="f9b5cafa0fdb2cf6bd2d6a077f2dd1acab97424f0149dcd01c6defb67cc043bd.png" title=" Jorge clicks on Saltar video" width="648"/>
+                <img src="feba7bd95145cf84015ea55e41b3b75b788b0c67972df7271b8dd3cad0ffba24.png" title=" Jorge clicks on Boton de entrar (completed)" width="648"/>
+                <img src="feba7bd95145cf84015ea55e41b3b75b788b0c67972df7271b8dd3cad0ffba24.png" title=" Jorge clicks on Saltar video" width="648"/>
                 <img src="3929e9891718aec10e6950c2c56cd04f572f9a384e1bffdb5bc6c37cdd5b51ea.png" title=" Jorge clicks on Saltar video (completed)" width="648"/>
                 <img src="3929e9891718aec10e6950c2c56cd04f572f9a384e1bffdb5bc6c37cdd5b51ea.png" title=" Jorge login (completed)" width="648"/>
                 <img src="3929e9891718aec10e6950c2c56cd04f572f9a384e1bffdb5bc6c37cdd5b51ea.png" title=" Given Store employee login into application with muy83-ag1@muy.com.co and muy83-ag and skip the welcome video (completed)" width="648"/>
@@ -290,27 +385,54 @@
                 <img src="3d0d88521009ea861d5ccfc55898f606e414269003c6db76e335522e412b23d1.png" title=" Jorge clicks on Para llevar (completed)" width="648"/>
                 <img src="3d0d88521009ea861d5ccfc55898f606e414269003c6db76e335522e412b23d1.png" title=" Jorge donde vas a comer (completed)" width="648"/>
                 <img src="3d0d88521009ea861d5ccfc55898f606e414269003c6db76e335522e412b23d1.png" title=" Jorge menu" width="648"/>
-                <img src="6c1864d134061a28c89632b02a95634b5095ad7713e7dc7b0aad3024c84def05.png" title=" Jorge clicks on Promo muy x3" width="648"/>
-                <img src="1ac1d443ec30e8045a727afc50451d9588ee6beb46c0c734efe235004b5b373f.png" title=" Jorge clicks on Promo muy x3 (completed)" width="648"/>
-                <img src="1ac1d443ec30e8045a727afc50451d9588ee6beb46c0c734efe235004b5b373f.png" title=" Jorge menu (completed)" width="648"/>
-                <img src="1ac1d443ec30e8045a727afc50451d9588ee6beb46c0c734efe235004b5b373f.png" title=" Jorge personalizado" width="648"/>
-                <img src="1771233380fc119b6ec0ebf2b9519a42121fbb558832017a7fe6a9f1c55cdbf2.png" title=" Jorge clicks on Seleccionar tama&ntilde;o" width="648"/>
-                <img src="a9f77e521fc658c1baaa38d61e643981a5ca3349cb4a09d99edde5b4338712eb.png" title=" Jorge clicks on Seleccionar tama&ntilde;o (completed)" width="648"/>
-                <img src="a9f77e521fc658c1baaa38d61e643981a5ca3349cb4a09d99edde5b4338712eb.png" title=" Jorge personalizado (completed)" width="648"/>
-                <img src="a9f77e521fc658c1baaa38d61e643981a5ca3349cb4a09d99edde5b4338712eb.png" title=" Jorge seleccionar ingrediente" width="648"/>
+                <img src="fa74636fee53246a58aa9db79da26a25252520a74039c9131c1650a867999fd8.png" title=" Jorge clicks on Promo muy x3" width="648"/>
+                <img src="ec289f215a391f6c76332354421b8165746e43577806259b05d0187751909b28.png" title=" Jorge clicks on Promo muy x3 (completed)" width="648"/>
+                <img src="ec289f215a391f6c76332354421b8165746e43577806259b05d0187751909b28.png" title=" Jorge menu (completed)" width="648"/>
+                <img src="ec289f215a391f6c76332354421b8165746e43577806259b05d0187751909b28.png" title=" Jorge personalizado" width="648"/>
+                <img src="a8c76086b7064c3f8ea285943a5f7be859bc63dec094d6426cbf87f49a61e7f7.png" title=" Jorge clicks on Seleccionar tama&ntilde;o" width="648"/>
+                <img src="d1b3c2dd47763b730324ec60eaa92b85002bf77102772308dbd6df34a4a56f51.png" title=" Jorge clicks on Seleccionar tama&ntilde;o (completed)" width="648"/>
+                <img src="d1b3c2dd47763b730324ec60eaa92b85002bf77102772308dbd6df34a4a56f51.png" title=" Jorge personalizado (completed)" width="648"/>
+                <img src="d1b3c2dd47763b730324ec60eaa92b85002bf77102772308dbd6df34a4a56f51.png" title=" Jorge seleccionar ingrediente" width="648"/>
                 <img src="05e43298c3cbc038b940f6d3818967958283c38b8906da5011156ed467604c43.png" title=" Jorge clicks on Ingrediente base arroz integral" width="648"/>
                 <img src="05e43298c3cbc038b940f6d3818967958283c38b8906da5011156ed467604c43.png" title=" Jorge clicks on Ingrediente base arroz integral (completed)" width="648"/>
-                <img src="05e43298c3cbc038b940f6d3818967958283c38b8906da5011156ed467604c43.png" title=" Jorge clicks on Boton siguiente" width="648"/>
-                <img src="ed7a66dcbe20af75bbab6ca25d3c5aeadf8bd85ff9992be0f7fb5fbd27a9d651.png" title=" Jorge clicks on Boton siguiente (completed)" width="648"/>
-                <img src="ed7a66dcbe20af75bbab6ca25d3c5aeadf8bd85ff9992be0f7fb5fbd27a9d651.png" title=" Jorge seleccionar ingrediente (completed)" width="648"/>
-                <img src="a9ce4e1fa90eb29c971d619b0e6d63d24e59948ff249a81fff92623daab747da.png" title=" When User login into application with 3005302178 and select his Comer Aqui, the Muy, his Fresco with Muy (completed)" width="648"/>
-                <img src="a9ce4e1fa90eb29c971d619b0e6d63d24e59948ff249a81fff92623daab747da.png" title=" Then User create the order" width="648"/>
-                <img src="a9ce4e1fa90eb29c971d619b0e6d63d24e59948ff249a81fff92623daab747da.png" title=" Then User create the order (completed)" width="648"/>
-                <img src="0f0645c40ab61f20fcb4332acb40d8f6c8ec95cfb5f98a7a58cd721eecdaad63.png" title=" Example: {storeEmail=muy83-ag1@muy.com.co, password=muy83-ag, numberPhone=3005302178, orderMode=Comer Aqui, brand=Muy, sugerido=Fricas&eacute; de pollo, size=Muy Muy}" width="648"/>
-                <img src="0f0645c40ab61f20fcb4332acb40d8f6c8ec95cfb5f98a7a58cd721eecdaad63.png" title=" Given Store employee login into application with muy83-ag1@muy.com.co and muy83-ag and skip the welcome video" width="648"/>
-                <img src="0f0645c40ab61f20fcb4332acb40d8f6c8ec95cfb5f98a7a58cd721eecdaad63.png" title=" Jorge login" width="648"/>
+                <img src="05e43298c3cbc038b940f6d3818967958283c38b8906da5011156ed467604c43.png" title=" Jorge clicks on Ingrediente grano frijo rojo" width="648"/>
+                <img src="a9ce4e1fa90eb29c971d619b0e6d63d24e59948ff249a81fff92623daab747da.png" title=" Jorge clicks on Ingrediente grano frijo rojo (completed)" width="648"/>
+                <img src="a9ce4e1fa90eb29c971d619b0e6d63d24e59948ff249a81fff92623daab747da.png" title=" Jorge clicks on Espinaca y tomate" width="648"/>
+                <img src="a5edeebdf96891d4067b0f63819f9213d38a70db1885c212f06b7a986ce6e4d2.png" title=" Jorge clicks on Espinaca y tomate (completed)" width="648"/>
+                <img src="a5edeebdf96891d4067b0f63819f9213d38a70db1885c212f06b7a986ce6e4d2.png" title=" Jorge clicks on Pollo a a plancha" width="648"/>
+                <img src="91fa208ff4d38bd56f6067c50860759e771d03302caf442e367761b1578e0d25.png" title=" Jorge clicks on Pollo a a plancha (completed)" width="648"/>
+                <img src="91fa208ff4d38bd56f6067c50860759e771d03302caf442e367761b1578e0d25.png" title=" Jorge clicks on Boton siguiente" width="648"/>
+                <img src="91fa208ff4d38bd56f6067c50860759e771d03302caf442e367761b1578e0d25.png" title=" Jorge clicks on Boton siguiente (completed)" width="648"/>
+                <img src="91fa208ff4d38bd56f6067c50860759e771d03302caf442e367761b1578e0d25.png" title=" Jorge clicks on Platano maduro" width="648"/>
+                <img src="d59ffd7ed020fcb51eeb8aeec1e07881cd53d63e70be2da558f5f9a8a27e3632.png" title=" Jorge clicks on Platano maduro (completed)" width="648"/>
+                <img src="d59ffd7ed020fcb51eeb8aeec1e07881cd53d63e70be2da558f5f9a8a27e3632.png" title=" Jorge clicks on Platano maduro" width="648"/>
+                <img src="7719150dce02231eb3dab364e9968cf5233c5daa7db79d707e5e5a2e2767bf10.png" title=" Jorge clicks on Platano maduro (completed)" width="648"/>
+                <img src="7719150dce02231eb3dab364e9968cf5233c5daa7db79d707e5e5a2e2767bf10.png" title=" Jorge clicks on Maiz tierno" width="648"/>
+                <img src="1722b5a2b95c7423d7303ce5800b3d0dc34390bdb1ca2c91391b8c3d08f2b498.png" title=" Jorge clicks on Maiz tierno (completed)" width="648"/>
+                <img src="1722b5a2b95c7423d7303ce5800b3d0dc34390bdb1ca2c91391b8c3d08f2b498.png" title=" Jorge clicks on Maiz tierno" width="648"/>
+                <img src="ca22dd779ca259a92e41e684d046aa35b4db3f52bf63e318b4dc8a0833bf5492.png" title=" Jorge clicks on Maiz tierno (completed)" width="648"/>
+                <img src="ca22dd779ca259a92e41e684d046aa35b4db3f52bf63e318b4dc8a0833bf5492.png" title=" Jorge clicks on Boton siguiente" width="648"/>
+                <img src="ca22dd779ca259a92e41e684d046aa35b4db3f52bf63e318b4dc8a0833bf5492.png" title=" Jorge clicks on Boton siguiente (completed)" width="648"/>
+                <img src="ca22dd779ca259a92e41e684d046aa35b4db3f52bf63e318b4dc8a0833bf5492.png" title=" Jorge clicks on Hogao" width="648"/>
+                <img src="4086614f82b2adb57718a36be1df26000f173ac16b1b9c449b90a47810ff01fb.png" title=" Jorge clicks on Hogao (completed)" width="648"/>
+                <img src="4086614f82b2adb57718a36be1df26000f173ac16b1b9c449b90a47810ff01fb.png" title=" Jorge clicks on Boton siguiente" width="648"/>
+                <img src="4086614f82b2adb57718a36be1df26000f173ac16b1b9c449b90a47810ff01fb.png" title=" Jorge clicks on Boton siguiente (completed)" width="648"/>
+                <img src="4086614f82b2adb57718a36be1df26000f173ac16b1b9c449b90a47810ff01fb.png" title=" Jorge clicks on Gaseosa Quatro 400 ml" width="648"/>
+                <img src="98bd6741047c30616612fa46ce363993a4355a640e24efdc7116839c2eafd4a3.png" title=" Jorge clicks on Gaseosa Quatro 400 ml (completed)" width="648"/>
+                <img src="98bd6741047c30616612fa46ce363993a4355a640e24efdc7116839c2eafd4a3.png" title=" Jorge clicks on Boton siguiente" width="648"/>
+                <img src="98bd6741047c30616612fa46ce363993a4355a640e24efdc7116839c2eafd4a3.png" title=" Jorge clicks on Boton siguiente (completed)" width="648"/>
+                <img src="98bd6741047c30616612fa46ce363993a4355a640e24efdc7116839c2eafd4a3.png" title=" Jorge clicks on Galleta de avena con pasas" width="648"/>
+                <img src="7ccbd8c22040ac9746a18eb34df0fa9dd0ce62246ed6337df6b69e596c6ebf49.png" title=" Jorge clicks on Galleta de avena con pasas (completed)" width="648"/>
+                <img src="7ccbd8c22040ac9746a18eb34df0fa9dd0ce62246ed6337df6b69e596c6ebf49.png" title=" Jorge clicks on Boton siguiente" width="648"/>
+                <img src="7ccbd8c22040ac9746a18eb34df0fa9dd0ce62246ed6337df6b69e596c6ebf49.png" title=" Jorge clicks on Boton siguiente (completed)" width="648"/>
+                <img src="7ccbd8c22040ac9746a18eb34df0fa9dd0ce62246ed6337df6b69e596c6ebf49.png" title=" Jorge seleccionar ingrediente (completed)" width="648"/>
+                <img src="8586eb1712cfb29797bd832c9ddc109a6a6fb084686367d85b88acc916362fb3.png" title=" Example: {storeEmail=muy83-ag1@muy.com.co, password=muy83-ag, numberPhone=3005302178, orderMode=Comer Aqui, brand=Muy, sugerido=Fricas&eacute; de pollo, size=Muy Muy}" width="648"/>
+                <img src="8586eb1712cfb29797bd832c9ddc109a6a6fb084686367d85b88acc916362fb3.png" title=" Given Store employee login into application with muy83-ag1@muy.com.co and muy83-ag and skip the welcome video" width="648"/>
+                <img src="8586eb1712cfb29797bd832c9ddc109a6a6fb084686367d85b88acc916362fb3.png" title=" Jorge login" width="648"/>
                 <img src="767dc4dcf86419e50e34680ca17930fcddf7485ddc5a80c744dcdb3b58e92559.png" title=" Jorge enters 'muy83-ag1@muy.com.co' into Correo de la tienda" width="648"/>
                 <img src="feba7bd95145cf84015ea55e41b3b75b788b0c67972df7271b8dd3cad0ffba24.png" title=" Jorge enters 'muy83-ag1@muy.com.co' into Correo de la tienda (completed)" width="648"/>
+                <img src="feba7bd95145cf84015ea55e41b3b75b788b0c67972df7271b8dd3cad0ffba24.png" title=" Jorge enters 'muy83-ag' into Password de la tienda" width="648"/>
+                <img src="feba7bd95145cf84015ea55e41b3b75b788b0c67972df7271b8dd3cad0ffba24.png" title=" Jorge enters 'muy83-ag' into Password de la tienda (completed)" width="648"/>
                 <img src="feba7bd95145cf84015ea55e41b3b75b788b0c67972df7271b8dd3cad0ffba24.png" title=" Jorge clicks on Boton de entrar" width="648"/>
                 <img src="feba7bd95145cf84015ea55e41b3b75b788b0c67972df7271b8dd3cad0ffba24.png" title=" Jorge clicks on Boton de entrar (completed)" width="648"/>
                 <img src="feba7bd95145cf84015ea55e41b3b75b788b0c67972df7271b8dd3cad0ffba24.png" title=" Jorge clicks on Saltar video" width="648"/>
@@ -322,29 +444,54 @@
                 <img src="a73434f4f2fdcb474c72b06b0eb5fbcc32375af1e1fedd2a276d99e210ae3ea7.png" title=" Jorge enters '3005302178' into Numero De Telefono" width="648"/>
                 <img src="dbebab5fdccfc35b19486277c0c88994b5fe9a5718fb9aecf59ff9fa760e6d5a.png" title=" Jorge enters '3005302178' into Numero De Telefono (completed)" width="648"/>
                 <img src="dbebab5fdccfc35b19486277c0c88994b5fe9a5718fb9aecf59ff9fa760e6d5a.png" title=" Jorge clicks on Boton continuar" width="648"/>
-                <img src="87215887554cf029837fa3e6a69b812d53dad187c68e1874b31755cc754ab5ca.png" title=" Jorge clicks on Boton continuar (completed)" width="648"/>
-                <img src="87215887554cf029837fa3e6a69b812d53dad187c68e1874b31755cc754ab5ca.png" title=" Jorge login user (completed)" width="648"/>
-                <img src="87215887554cf029837fa3e6a69b812d53dad187c68e1874b31755cc754ab5ca.png" title=" Jorge donde vas a comer" width="648"/>
+                <img src="56e4ed5b7a651fa9084610d35fbc3007178eb3b3beaeb7949e940a914093d92b.png" title=" Jorge clicks on Boton continuar (completed)" width="648"/>
+                <img src="56e4ed5b7a651fa9084610d35fbc3007178eb3b3beaeb7949e940a914093d92b.png" title=" Jorge login user (completed)" width="648"/>
+                <img src="56e4ed5b7a651fa9084610d35fbc3007178eb3b3beaeb7949e940a914093d92b.png" title=" Jorge donde vas a comer" width="648"/>
                 <img src="3d0d88521009ea861d5ccfc55898f606e414269003c6db76e335522e412b23d1.png" title=" Jorge clicks on Para llevar" width="648"/>
                 <img src="3d0d88521009ea861d5ccfc55898f606e414269003c6db76e335522e412b23d1.png" title=" Jorge clicks on Para llevar (completed)" width="648"/>
                 <img src="3d0d88521009ea861d5ccfc55898f606e414269003c6db76e335522e412b23d1.png" title=" Jorge donde vas a comer (completed)" width="648"/>
                 <img src="3d0d88521009ea861d5ccfc55898f606e414269003c6db76e335522e412b23d1.png" title=" Jorge menu" width="648"/>
-                <img src="438c6043d9fae9303cf74433404ddb1264ae80e19c33ece4dcf9ee0558ec4485.png" title=" Jorge clicks on Promo muy x3" width="648"/>
-                <img src="45a1a6b29248a046daf6bb431cd3c5aa7f6ab8ae23e060d5c913d40868e40581.png" title=" Jorge clicks on Promo muy x3 (completed)" width="648"/>
-                <img src="45a1a6b29248a046daf6bb431cd3c5aa7f6ab8ae23e060d5c913d40868e40581.png" title=" Jorge menu (completed)" width="648"/>
-                <img src="45a1a6b29248a046daf6bb431cd3c5aa7f6ab8ae23e060d5c913d40868e40581.png" title=" Jorge personalizado" width="648"/>
-                <img src="ad0fc68e9c653adac0793d398d71d1d594984ba3174329f0df00d45ec474671e.png" title=" Jorge clicks on Seleccionar tama&ntilde;o" width="648"/>
-                <img src="61745c1fe4eb71c8be9228fc7d9fef656672f5d492793f264dcaf107918d0449.png" title=" Jorge clicks on Seleccionar tama&ntilde;o (completed)" width="648"/>
-                <img src="61745c1fe4eb71c8be9228fc7d9fef656672f5d492793f264dcaf107918d0449.png" title=" Jorge personalizado (completed)" width="648"/>
-                <img src="61745c1fe4eb71c8be9228fc7d9fef656672f5d492793f264dcaf107918d0449.png" title=" Jorge seleccionar ingrediente" width="648"/>
+                <img src="4b28f225a0044d8918266580bd7b476114912185abf8404d1639b877703feca7.png" title=" Jorge clicks on Promo muy x3" width="648"/>
+                <img src="9afc2cd722a8f69856590d096070159c1f50299abb1aa30effde87c3a35c1949.png" title=" Jorge clicks on Promo muy x3 (completed)" width="648"/>
+                <img src="9afc2cd722a8f69856590d096070159c1f50299abb1aa30effde87c3a35c1949.png" title=" Jorge menu (completed)" width="648"/>
+                <img src="9afc2cd722a8f69856590d096070159c1f50299abb1aa30effde87c3a35c1949.png" title=" Jorge personalizado" width="648"/>
+                <img src="148aa6ddcaea68a3e0877ef5da2e7b753e9b9318036988ea9cb1078ddee11e86.png" title=" Jorge clicks on Seleccionar tama&ntilde;o" width="648"/>
+                <img src="9f93ea597cee7e9bd64bd9cbe7ceccfec11d254ff642587a5df8b82be9ada634.png" title=" Jorge clicks on Seleccionar tama&ntilde;o (completed)" width="648"/>
+                <img src="9f93ea597cee7e9bd64bd9cbe7ceccfec11d254ff642587a5df8b82be9ada634.png" title=" Jorge personalizado (completed)" width="648"/>
+                <img src="9f93ea597cee7e9bd64bd9cbe7ceccfec11d254ff642587a5df8b82be9ada634.png" title=" Jorge seleccionar ingrediente" width="648"/>
                 <img src="05e43298c3cbc038b940f6d3818967958283c38b8906da5011156ed467604c43.png" title=" Jorge clicks on Ingrediente base arroz integral" width="648"/>
                 <img src="05e43298c3cbc038b940f6d3818967958283c38b8906da5011156ed467604c43.png" title=" Jorge clicks on Ingrediente base arroz integral (completed)" width="648"/>
-                <img src="05e43298c3cbc038b940f6d3818967958283c38b8906da5011156ed467604c43.png" title=" Jorge clicks on Boton siguiente" width="648"/>
-                <img src="ed7a66dcbe20af75bbab6ca25d3c5aeadf8bd85ff9992be0f7fb5fbd27a9d651.png" title=" Jorge clicks on Boton siguiente (completed)" width="648"/>
-                <img src="ed7a66dcbe20af75bbab6ca25d3c5aeadf8bd85ff9992be0f7fb5fbd27a9d651.png" title=" Jorge seleccionar ingrediente (completed)" width="648"/>
-                <img src="a9ce4e1fa90eb29c971d619b0e6d63d24e59948ff249a81fff92623daab747da.png" title=" When User login into application with 3005302178 and select his Comer Aqui, the Muy, his Fricas&eacute; de pollo with Muy Muy (completed)" width="648"/>
-                <img src="a9ce4e1fa90eb29c971d619b0e6d63d24e59948ff249a81fff92623daab747da.png" title=" Then User create the order" width="648"/>
-                <img src="a9ce4e1fa90eb29c971d619b0e6d63d24e59948ff249a81fff92623daab747da.png" title=" Then User create the order (completed): <span class='success-color'>SUCCESS</span>" width="648"/>
+                <img src="05e43298c3cbc038b940f6d3818967958283c38b8906da5011156ed467604c43.png" title=" Jorge clicks on Ingrediente grano frijo rojo" width="648"/>
+                <img src="a9ce4e1fa90eb29c971d619b0e6d63d24e59948ff249a81fff92623daab747da.png" title=" Jorge clicks on Ingrediente grano frijo rojo (completed)" width="648"/>
+                <img src="a9ce4e1fa90eb29c971d619b0e6d63d24e59948ff249a81fff92623daab747da.png" title=" Jorge clicks on Espinaca y tomate" width="648"/>
+                <img src="a5edeebdf96891d4067b0f63819f9213d38a70db1885c212f06b7a986ce6e4d2.png" title=" Jorge clicks on Espinaca y tomate (completed)" width="648"/>
+                <img src="a5edeebdf96891d4067b0f63819f9213d38a70db1885c212f06b7a986ce6e4d2.png" title=" Jorge clicks on Pollo a a plancha" width="648"/>
+                <img src="91fa208ff4d38bd56f6067c50860759e771d03302caf442e367761b1578e0d25.png" title=" Jorge clicks on Pollo a a plancha (completed)" width="648"/>
+                <img src="91fa208ff4d38bd56f6067c50860759e771d03302caf442e367761b1578e0d25.png" title=" Jorge clicks on Boton siguiente" width="648"/>
+                <img src="91fa208ff4d38bd56f6067c50860759e771d03302caf442e367761b1578e0d25.png" title=" Jorge clicks on Boton siguiente (completed)" width="648"/>
+                <img src="91fa208ff4d38bd56f6067c50860759e771d03302caf442e367761b1578e0d25.png" title=" Jorge clicks on Platano maduro" width="648"/>
+                <img src="d59ffd7ed020fcb51eeb8aeec1e07881cd53d63e70be2da558f5f9a8a27e3632.png" title=" Jorge clicks on Platano maduro (completed)" width="648"/>
+                <img src="d59ffd7ed020fcb51eeb8aeec1e07881cd53d63e70be2da558f5f9a8a27e3632.png" title=" Jorge clicks on Platano maduro" width="648"/>
+                <img src="7719150dce02231eb3dab364e9968cf5233c5daa7db79d707e5e5a2e2767bf10.png" title=" Jorge clicks on Platano maduro (completed)" width="648"/>
+                <img src="7719150dce02231eb3dab364e9968cf5233c5daa7db79d707e5e5a2e2767bf10.png" title=" Jorge clicks on Maiz tierno" width="648"/>
+                <img src="1722b5a2b95c7423d7303ce5800b3d0dc34390bdb1ca2c91391b8c3d08f2b498.png" title=" Jorge clicks on Maiz tierno (completed)" width="648"/>
+                <img src="1722b5a2b95c7423d7303ce5800b3d0dc34390bdb1ca2c91391b8c3d08f2b498.png" title=" Jorge clicks on Maiz tierno" width="648"/>
+                <img src="ca22dd779ca259a92e41e684d046aa35b4db3f52bf63e318b4dc8a0833bf5492.png" title=" Jorge clicks on Maiz tierno (completed)" width="648"/>
+                <img src="ca22dd779ca259a92e41e684d046aa35b4db3f52bf63e318b4dc8a0833bf5492.png" title=" Jorge clicks on Boton siguiente" width="648"/>
+                <img src="ca22dd779ca259a92e41e684d046aa35b4db3f52bf63e318b4dc8a0833bf5492.png" title=" Jorge clicks on Boton siguiente (completed)" width="648"/>
+                <img src="ca22dd779ca259a92e41e684d046aa35b4db3f52bf63e318b4dc8a0833bf5492.png" title=" Jorge clicks on Hogao" width="648"/>
+                <img src="4086614f82b2adb57718a36be1df26000f173ac16b1b9c449b90a47810ff01fb.png" title=" Jorge clicks on Hogao (completed)" width="648"/>
+                <img src="4086614f82b2adb57718a36be1df26000f173ac16b1b9c449b90a47810ff01fb.png" title=" Jorge clicks on Boton siguiente" width="648"/>
+                <img src="4086614f82b2adb57718a36be1df26000f173ac16b1b9c449b90a47810ff01fb.png" title=" Jorge clicks on Boton siguiente (completed)" width="648"/>
+                <img src="4086614f82b2adb57718a36be1df26000f173ac16b1b9c449b90a47810ff01fb.png" title=" Jorge clicks on Gaseosa Quatro 400 ml" width="648"/>
+                <img src="98bd6741047c30616612fa46ce363993a4355a640e24efdc7116839c2eafd4a3.png" title=" Jorge clicks on Gaseosa Quatro 400 ml (completed)" width="648"/>
+                <img src="98bd6741047c30616612fa46ce363993a4355a640e24efdc7116839c2eafd4a3.png" title=" Jorge clicks on Boton siguiente" width="648"/>
+                <img src="98bd6741047c30616612fa46ce363993a4355a640e24efdc7116839c2eafd4a3.png" title=" Jorge clicks on Boton siguiente (completed)" width="648"/>
+                <img src="98bd6741047c30616612fa46ce363993a4355a640e24efdc7116839c2eafd4a3.png" title=" Jorge clicks on Galleta de avena con pasas" width="648"/>
+                <img src="7ccbd8c22040ac9746a18eb34df0fa9dd0ce62246ed6337df6b69e596c6ebf49.png" title=" Jorge clicks on Galleta de avena con pasas (completed)" width="648"/>
+                <img src="7ccbd8c22040ac9746a18eb34df0fa9dd0ce62246ed6337df6b69e596c6ebf49.png" title=" Jorge clicks on Boton siguiente" width="648"/>
+                <img src="7ccbd8c22040ac9746a18eb34df0fa9dd0ce62246ed6337df6b69e596c6ebf49.png" title=" Jorge clicks on Boton siguiente (completed)" width="648"/>
+                <img src="7ccbd8c22040ac9746a18eb34df0fa9dd0ce62246ed6337df6b69e596c6ebf49.png" title=" Jorge seleccionar ingrediente (completed): <span class='error-color'>ERROR</span>" width="648"/>
             </div>
         </div>
 

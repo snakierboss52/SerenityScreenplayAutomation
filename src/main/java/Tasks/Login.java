@@ -9,6 +9,7 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 
 
+import static Questions.LoginQuestion.isDisplayed;
 import static UserInterface.LoginPage.*;
 
 public class Login implements Task {

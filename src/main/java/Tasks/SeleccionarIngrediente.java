@@ -23,9 +23,21 @@ public class SeleccionarIngrediente implements Task {
         jorge.attemptsTo(Click.on(proteinaEspinacaTomate));
         jorge.attemptsTo(Click.on(proteinaPolloALaPlancha));
         jorge.attemptsTo(Click.on(botonSiguiente));
+        jorge.attemptsTo(Click.on(acompanamientoPlatano));
+        jorge.attemptsTo(Click.on(acompanamientoPlatano));
+        jorge.attemptsTo(Click.on(acompanamientoTocineta));
+        jorge.attemptsTo(Click.on(acompanamientoChorizo));
+        jorge.attemptsTo(Click.on(botonSiguiente));
+        jorge.attemptsTo(Click.on(salsaHogao));
+        jorge.attemptsTo(Click.on(botonSiguiente));
+        jorge.attemptsTo(Click.on(gaseosaQuatro));
+        jorge.attemptsTo(Click.on(botonSiguiente));
+        jorge.attemptsTo(Click.on(galletaAvenaPasas));
+        jorge.attemptsTo(Click.on(botonSiguiente));
+
     }
 
-    public static Performable inIngrediente() {
+    public static Performable inIngredientes() {
         return Tasks.instrumented(SeleccionarIngrediente.class);
     }
 
