@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Runner.Runner" skipped="0" tests="1" time="0.0" timestamp="2021-10-17 09:38:22"><testcase classname="Runner.Runner" name="Initialisation"><error message="Could not instantiate new WebDriver instance of type class io.appium.java_client.AppiumDriver (Connection refused (Connection refused)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'mbp-de-jorge', ip: 'fe80:0:0:0:cba:f85:ccfd:cb45%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'&#10;Driver info: driver.version: RemoteDriver). See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">Could not instantiate new WebDriver instance of type class io.appium.java_client.AppiumDriver (Connection refused (Connection refused)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'mbp-de-jorge', ip: 'fe80:0:0:0:cba:f85:ccfd:cb45%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
-Driver info: driver.version: RemoteDriver). See below for more details.</error><system-err>Could not instantiate new WebDriver instance of type class io.appium.java_client.AppiumDriver (Connection refused (Connection refused)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'mbp-de-jorge', ip: 'fe80:0:0:0:cba:f85:ccfd:cb45%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
-Driver info: driver.version: RemoteDriver). See below for more details.
-</system-err></testcase></testsuite>

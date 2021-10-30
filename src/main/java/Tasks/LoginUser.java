@@ -8,11 +8,15 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 
 import static UserInterface.LoginUserPage.buttonContinuar;
-import static UserInterface.LoginUserPage.numberPhone;
+import static UserInterface.LoginUserPage.userNumberPhone;
 
 public class LoginUser implements Task {
 
+     public String numberPhone;
 
+     public LoginUser(String numberPhone){
+         this.numberPhone = numberPhone;
+     }
 
     @Override
     public <T extends Actor> void performAs(T jorge) {
@@ -21,11 +25,11 @@ public class LoginUser implements Task {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        jorge.attemptsTo(Enter.theValue("3005302178").into(numberPhone));
+        jorge.attemptsTo(Enter.theValue(numberPhone).into(userNumberPhone));
         jorge.attemptsTo(Click.on(buttonContinuar));
     }
 
-    public static LoginUser inApp() {
-        return Tasks.instrumented(LoginUser.class);
+    public static LoginUser inApp(String numberPhone) {
+        return Tasks.instrumented(LoginUser.class, numberPhone);
     }
 }

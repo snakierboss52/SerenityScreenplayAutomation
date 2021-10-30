@@ -22,6 +22,6 @@ public class Ruleta implements Task {
     }
 
     public static Performable jugarRuleta() {
-        return Tasks.instrumented(Login.class);
+        return Tasks.instrumented(Ruleta.class);
     }
 }

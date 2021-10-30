@@ -1,12 +1,12 @@
 package Steps;
 
-import cucumber.api.java.After;
 import cucumber.api.java.Before;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 
 import net.serenitybdd.screenplay.actors.OnlineCast;
+import org.junit.AfterClass;
 
 import static net.serenitybdd.screenplay.actors.OnStage.setTheStage;
 import static net.serenitybdd.screenplay.actors.OnStage.theActor;
@@ -31,8 +31,8 @@ public class Hook{
 
     }
 
-    @After
-    public void tearDown(){
+    @AfterClass
+    public static void tearDown(){
         driver.quit();
     }
 

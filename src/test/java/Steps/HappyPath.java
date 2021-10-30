@@ -6,11 +6,11 @@ import Tasks.*;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import net.serenitybdd.screenplay.Actor;
+
 
 
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
-import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
+
 
 
 public class HappyPath{
@@ -30,13 +30,16 @@ public class HappyPath{
 
                 //theActorCalled("Jorge").attemptsTo(LoginUser.inApp());
 
-                theActorCalled("Jorge").wasAbleTo(LoginUser.inApp());
+                theActorCalled("Jorge").wasAbleTo(LoginUser.inApp(numberPhone));
                 theActorCalled("Jorge").attemptsTo(DondeVasAComer.paraLlevar());
                 theActorCalled("Jorge").attemptsTo(Menu.inPersonalizado());
                 theActorCalled("Jorge").attemptsTo(Personalizado.inTamanoMuy());
                 theActorCalled("Jorge").attemptsTo(SeleccionarIngrediente.inIngredientes());
                 theActorCalled("Jorge").attemptsTo(Ruleta.jugarRuleta());
-                Thread.sleep(80000);
+                theActorCalled("Jorge").attemptsTo(Checkout.inFinalizarOrden());
+                Thread.sleep(3000);
+
+
 
 
         }

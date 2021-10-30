@@ -1,9 +1,8 @@
-Steps/happyPath.class
-testCases/GmailTest.class
 WebElements/HandlingSliders.class
 WebElements/HandlingMouseOver.class
 Runner/Runner.class
 WebElements/HandlingCheckBoxes.class
 WebElements/Handlinglinks.class
 WebElements/HandlingDropdowns.class
-testCases/LoginTest.class
+Steps/HappyPath.class
+Steps/Hook.class
