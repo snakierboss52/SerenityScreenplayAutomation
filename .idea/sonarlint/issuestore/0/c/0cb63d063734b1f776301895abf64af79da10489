@@ -1,0 +1,19 @@
+
+P
+java:S1118":Add a private constructor to hide the implicit public one.(š‡ØÏ
+O
+java:S3252	"9Use static access with "org.openqa.selenium.By" for "id".(•¡›Â
+T
+java:S3252
+"9Use static access with "org.openqa.selenium.By" for "id".(Şöëóøÿÿÿÿ
+x
+java:S1104	"[Make userNumberPhone a static final constant or non-public and provide accessors if needed.(•¡›Â8ÃªÍ/
+v
+java:S1104
+"[Make buttonContinuar a static final constant or non-public and provide accessors if needed.(Şöëóøÿÿÿÿ
+R
+java:S1444	"5Make this "public static userNumberPhone" field final(•¡›Â8ÃªÍ/
+P
+java:S1444
+"5Make this "public static buttonContinuar" field final(Şöëóøÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜éÆÀşÿÿÿÿ
