@@ -1,4 +1,7 @@
+/Users/jorgelozano/Documents/Automation/SerenityBDD/src/main/java/Tasks/Register.java
 /Users/jorgelozano/Documents/Automation/SerenityBDD/src/main/java/Interactions/TheUserSelect.java
+/Users/jorgelozano/Documents/Automation/SerenityBDD/src/main/java/UserInterface/SugeridoPage.java
+/Users/jorgelozano/Documents/Automation/SerenityBDD/src/main/java/Tasks/Sugerido.java
 /Users/jorgelozano/Documents/Automation/SerenityBDD/src/main/java/UserInterface/CheckoutPage.java
 /Users/jorgelozano/Documents/Automation/SerenityBDD/src/main/java/Questions/LoginQuestion.java
 /Users/jorgelozano/Documents/Automation/SerenityBDD/src/main/java/UserInterface/DondeVasAComerPage.java
@@ -15,5 +18,6 @@
 /Users/jorgelozano/Documents/Automation/SerenityBDD/src/main/java/Tasks/DondeVasAComer.java
 /Users/jorgelozano/Documents/Automation/SerenityBDD/src/main/java/Tasks/Menu.java
 /Users/jorgelozano/Documents/Automation/SerenityBDD/src/main/java/UserInterface/PersonalizadoPage.java
+/Users/jorgelozano/Documents/Automation/SerenityBDD/src/main/java/UserInterface/RegisterPage.java
 /Users/jorgelozano/Documents/Automation/SerenityBDD/src/main/java/UserInterface/MenuPage.java
 /Users/jorgelozano/Documents/Automation/SerenityBDD/src/main/java/Tasks/Ruleta.java

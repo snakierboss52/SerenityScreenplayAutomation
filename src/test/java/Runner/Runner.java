@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features = "src/test/java/features/HappyPathMuy.feature", glue = "Steps")
+@CucumberOptions(features = "src/test/java/features/HappyPathMuy.feature",glue = "Steps")
 public class Runner{
 
 

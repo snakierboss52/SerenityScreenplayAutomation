@@ -1,4 +1,66 @@
 -------------------------------------------------------------------------------
 Test set: create different orders
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 569.726 s - in create different orders
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 229.777 s <<< FAILURE! - in create different orders
+User create order with menu personalizado(create different orders)  Time elapsed: 77.475 s  <<< ERROR!
+net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class io.appium.java_client.AppiumDriver
+Caused by: net.thucydides.core.webdriver.DriverConfigurationError: 
+Could not instantiate new WebDriver instance of type class io.appium.java_client.AppiumDriver (Unable to create a new remote session. Original error: Failed to connect to /127.0.0.0:4723
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'mbp-de-jorge', ip: 'fe80:0:0:0:cba:f85:ccfd:cb45%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: driver.version: RemoteDriver). See below for more details.
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Original error: Failed to connect to /127.0.0.0:4723
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'mbp-de-jorge', ip: 'fe80:0:0:0:cba:f85:ccfd:cb45%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: driver.version: RemoteDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.net.ConnectException: Failed to connect to /127.0.0.0:4723
+Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
+
+User create order with menu personalizado(create different orders)  Time elapsed: 0 s  <<< ERROR!
+cucumber.runtime.AmbiguousStepDefinitionsException: 
+"User login into application with 3005302178 and select his Para llevar, the Pecado, his personalizado with Gran Pecado" matches more than one step definition:
+  "^User login into application with (.+) and select his (.+), the (.+), his (.+) with (.+)$" in HappyPath.user_login_into_application_with_and_select_his_the_his_with(String,String,String,String,String)
+  "^User login into application with (.+)$" in EndToEnd1.user_login_into_application_with(String)
+
+
+User create order with menu personalizado(create different orders)  Time elapsed: 76.49 s  <<< ERROR!
+net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class io.appium.java_client.AppiumDriver
+Caused by: net.thucydides.core.webdriver.DriverConfigurationError: 
+Could not instantiate new WebDriver instance of type class io.appium.java_client.AppiumDriver (Unable to create a new remote session. Original error: Failed to connect to /127.0.0.0:4723
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'mbp-de-jorge', ip: 'fe80:0:0:0:cba:f85:ccfd:cb45%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: driver.version: RemoteDriver). See below for more details.
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Original error: Failed to connect to /127.0.0.0:4723
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'mbp-de-jorge', ip: 'fe80:0:0:0:cba:f85:ccfd:cb45%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: driver.version: RemoteDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.net.ConnectException: Failed to connect to /127.0.0.0:4723
+Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
+
+User create order with menu personalizado(create different orders)  Time elapsed: 0 s  <<< ERROR!
+cucumber.runtime.AmbiguousStepDefinitionsException: 
+"User login into application with 3005302178 and select his Comer Aqui, the Muy, his personalizado with Muy Muy" matches more than one step definition:
+  "^User login into application with (.+) and select his (.+), the (.+), his (.+) with (.+)$" in HappyPath.user_login_into_application_with_and_select_his_the_his_with(String,String,String,String,String)
+  "^User login into application with (.+)$" in EndToEnd1.user_login_into_application_with(String)
+
+
+User non-registered order with menu Fresco(create different orders)  Time elapsed: 75.794 s  <<< ERROR!
+net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class io.appium.java_client.AppiumDriver
+Caused by: net.thucydides.core.webdriver.DriverConfigurationError: 
+Could not instantiate new WebDriver instance of type class io.appium.java_client.AppiumDriver (Unable to create a new remote session. Original error: Failed to connect to /127.0.0.0:4723
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'mbp-de-jorge', ip: 'fe80:0:0:0:cba:f85:ccfd:cb45%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: driver.version: RemoteDriver). See below for more details.
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Original error: Failed to connect to /127.0.0.0:4723
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'mbp-de-jorge', ip: 'fe80:0:0:0:cba:f85:ccfd:cb45%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: driver.version: RemoteDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.net.ConnectException: Failed to connect to /127.0.0.0:4723
+Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
+

@@ -4,8 +4,7 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
-import net.serenitybdd.screenplay.actions.Click;
-import net.serenitybdd.screenplay.actions.Enter;
+import net.serenitybdd.screenplay.actions.*;
 
 import static UserInterface.MenuPage.*;
 
@@ -22,8 +21,10 @@ public class Menu implements Task {
             e.printStackTrace();
         }
         jorge.attemptsTo(Click.on(SeleccionarPersonalizado));
+        //jorge.attemptsTo(Scroll.to());
 
     }
+
 
 
     public static Performable inMenu(String marca) {
@@ -33,6 +34,7 @@ public class Menu implements Task {
     public static Performable inPersonalizado() {
         return Tasks.instrumented(Menu.class);
     }
+
 
 
 
