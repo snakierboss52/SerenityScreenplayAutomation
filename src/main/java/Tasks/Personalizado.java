@@ -8,7 +8,7 @@ import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 
 
-import static UserInterface.PersonalizadoPage.tamanoMuy;
+import static UserInterface.MenuMuyPage.tamanoMuy;
 
 public class Personalizado implements Task {
 

@@ -11,8 +11,6 @@ a
 0src/test/java/WebElements/HandlingMouseOver.java,0/5/05d7023dbb05f0f3d9e0cc7b3775464cee7c6858
 ^
 .src/test/java/WebElements/HandlingSliders.java,a/e/ae6bef1aba9ddafeb45acab26296c96d3b1fcfc6
-k
-;src/main/java/UserInterface/SeleccionarIngredientePage.java,c/c/ccd9007d9716c392fefb358e5af6a84e74752220
 [
 +src/main/java/UserInterface/RuletaPage.java,0/7/075b1789f1ff376a7c685460512cd5c67efa1374
 Z
@@ -21,8 +19,6 @@ Z
 .src/main/java/UserInterface/LoginUserPage.java,0/c/0cb63d063734b1f776301895abf64af79da10489
 c
 3src/main/java/UserInterface/DondeVasAComerPage.java,f/8/f8da0cdd97d703e3ef2f04e63cea9f4bb671fca7
-b
-2src/main/java/UserInterface/PersonalizadoPage.java,1/6/161b67489a0da779163c837bd58a9acbbe0ad8dd
 Q
 !src/main/java/Tasks/Sugerido.java,d/7/d7ccad7e6bef4fface69c466cc3ef9fe40a02a8d
 V
