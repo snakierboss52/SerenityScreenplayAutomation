@@ -4,6 +4,11 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
+import net.serenitybdd.screenplay.ensure.Ensure;
+
+import java.time.Duration;
+
+import static UserInterface.CheckoutPage.ContinuarACaja;
 
 
 public class CreateOrder implements Task {
@@ -25,9 +30,10 @@ public class CreateOrder implements Task {
         SeleccionarIngrediente.inIngredientes(),
         Ruleta.jugarRuleta(),
         Checkout.inFinalizarOrden());
+        jorge.attemptsTo(Ensure.that(ContinuarACaja.waitingForNoMoreThan(Duration.ofSeconds(5))).isEnabled());
     }
 
-    public static Performable finalizarOrden(String numberPhone, String orderMode) {
+    public static Performable finalizarOrden(String numberPhone) {
         return Tasks.instrumented(CreateOrder.class);
     }
 

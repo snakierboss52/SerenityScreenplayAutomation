@@ -15,8 +15,6 @@ k
 ;src/main/java/UserInterface/SeleccionarIngredientePage.java,c/c/ccd9007d9716c392fefb358e5af6a84e74752220
 [
 +src/main/java/UserInterface/RuletaPage.java,0/7/075b1789f1ff376a7c685460512cd5c67efa1374
-]
--src/main/java/UserInterface/CheckoutPage.java,f/d/fdde9d04da34eaea2b4dc66656be3d2066db64c5
 Z
 *src/main/java/UserInterface/LoginPage.java,3/3/334ae91f75f5890405efff5cdff20cdceaf84327
 ^
@@ -29,14 +27,8 @@ Q
 !src/main/java/Tasks/Sugerido.java,d/7/d7ccad7e6bef4fface69c466cc3ef9fe40a02a8d
 V
 &src/main/java/Tasks/Personalizado.java,f/f/ff86ce92f5453bfcce388bdcdba73c36f37c9e8e
-M
-src/main/java/Tasks/Menu.java,f/a/fad10f95765dc6f76f8351c0fba3eac74682bd89
 R
 "src/main/java/Tasks/LoginUser.java,1/4/146043e08285cb0b50b54037d1ea4635707b7198
-N
-src/main/java/Tasks/Login.java,5/f/5fc9b770ab6ac6468945ddc4459c6f366b17a054
-Q
-!src/main/java/Tasks/Checkout.java,9/6/967d788709bd78c144ae3c3fa02bb354ae963a14
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 Q

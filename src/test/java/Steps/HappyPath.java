@@ -6,6 +6,7 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import cucumber.api.java.es.Dado;
 
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
@@ -25,7 +26,7 @@ public class HappyPath{
         public void userLoginIntoApplicationWithAndSelectHisTheHisWith(String numberPhone, String orderMode, String brand, String sugerido, String size) throws Throwable {
 
                 //refactorizar los .feature para no pasarle tantos parametros y hacelos mas faciles de leer y parafrasear
-                theActorInTheSpotlight().attemptsTo(CreateOrder.finalizarOrden(numberPhone, orderMode));
+                theActorInTheSpotlight().attemptsTo(CreateOrder.finalizarOrden(numberPhone));
                 Thread.sleep(3000);
         }
 
@@ -63,6 +64,7 @@ public class HappyPath{
 
 
         }
+
 
 
 }

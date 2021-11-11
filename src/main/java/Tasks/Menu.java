@@ -5,6 +5,9 @@ import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.*;
+import net.serenitybdd.screenplay.ensure.Ensure;
+
+import java.time.Duration;
 
 import static UserInterface.MenuPage.*;
 
@@ -20,6 +23,7 @@ public class Menu implements Task {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        jorge.attemptsTo(Ensure.that(SeleccionarPersonalizado.waitingForNoMoreThan(Duration.ofSeconds(5))).isDisplayed());
         jorge.attemptsTo(Click.on(SeleccionarPersonalizado));
         //jorge.attemptsTo(Scroll.to());
 
