@@ -5,6 +5,9 @@ import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
+import net.serenitybdd.screenplay.ensure.Ensure;
+
+import java.time.Duration;
 
 import static UserInterface.RuletaPage.jugarDespues;
 
@@ -14,10 +17,11 @@ public class Ruleta implements Task {
     @Override
     public <T extends Actor> void performAs(T jorge) {
         try {
-            Thread.sleep(30000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        jorge.attemptsTo(Ensure.that(jugarDespues.waitingForNoMoreThan(Duration.ofSeconds(5))).isEnabled());
         jorge.attemptsTo(Click.on(jugarDespues));
     }
 

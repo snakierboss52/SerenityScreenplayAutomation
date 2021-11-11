@@ -21,12 +21,12 @@ public class LoginUser implements Task {
     @Override
     public <T extends Actor> void performAs(T jorge) {
         try {
-            Thread.sleep(30000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        jorge.attemptsTo(Enter.theValue(numberPhone).into(userNumberPhone));
-        jorge.attemptsTo(Click.on(buttonContinuar));
+        jorge.attemptsTo(Enter.theValue(numberPhone).into(userNumberPhone),
+        Click.on(buttonContinuar));
     }
 
     public static LoginUser inApp(String numberPhone) {

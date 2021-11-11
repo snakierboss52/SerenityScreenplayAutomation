@@ -1,9 +1,0 @@
-
-j	java:S116"PRename this field "Jorge" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üÔİìüÿÿÿÿ
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úÉÏ²ıÿÿÿÿ
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïéè¾ùÿÿÿÿ
-m
-java:S1104"WMake isDisplayed a static final constant or non-public and provide accessors if needed.(ÙêÌì
-G
-java:S1444"1Make this "public static isDisplayed" field final(ÙêÌì
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ô¢¦Şıÿÿÿÿ

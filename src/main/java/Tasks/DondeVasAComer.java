@@ -22,7 +22,7 @@ public class DondeVasAComer implements Task {
     @Override
     public <T extends Actor> void performAs(T jorge) {
         try {
-            Thread.sleep(30000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

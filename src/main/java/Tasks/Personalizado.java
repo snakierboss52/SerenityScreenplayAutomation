@@ -8,7 +8,7 @@ import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 
 
-import static UserInterface.PersonalizadoPage.tamanoMuy;
+import static UserInterface.MenuMuyPage.tamanoMuy;
 
 public class Personalizado implements Task {
 
@@ -16,7 +16,7 @@ public class Personalizado implements Task {
     @Override
     public <T extends Actor> void performAs(T jorge) {
         try {
-            Thread.sleep(30000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

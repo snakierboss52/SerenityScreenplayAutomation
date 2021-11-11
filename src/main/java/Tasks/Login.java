@@ -25,14 +25,14 @@ public class Login implements Task {
     @Override
     public <T extends Actor> void performAs(T jorge) {
         try {
-            Thread.sleep(30000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        jorge.attemptsTo(Enter.theValue(email).into(emailStore));
-        jorge.attemptsTo(Enter.theValue(pass).into(password));
-        jorge.attemptsTo(Click.on(EntrarButton));
-        jorge.attemptsTo(Click.on(skipVideo));
+        jorge.attemptsTo(Enter.theValue(email).into(emailStore),
+        Enter.theValue(pass).into(password),
+        Click.on(EntrarButton),
+        Click.on(skipVideo));
 
     }
 

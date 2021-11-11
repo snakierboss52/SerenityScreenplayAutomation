@@ -24,14 +24,14 @@ public class Register implements Task {
     @Override
     public <T extends Actor> void performAs(T jorge) {
         try {
-            Thread.sleep(30000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        jorge.attemptsTo(Enter.keyValues(name).into(userName));
-        jorge.attemptsTo(Enter.keyValues(lastName).into(userLastName));
-        jorge.attemptsTo(Click.on(checkTerms));
-        jorge.attemptsTo(Click.on(registerButton));
+        jorge.attemptsTo(Enter.keyValues(name).into(userName),
+        Enter.keyValues(lastName).into(userLastName),
+        Click.on(checkTerms),
+        Click.on(registerButton));
     }
 
     public static Register inAppWith(String name, String lastName) {

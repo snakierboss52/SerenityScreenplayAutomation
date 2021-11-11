@@ -14,26 +14,26 @@ public class SeleccionarIngrediente implements Task {
     @Override
     public <T extends Actor> void performAs(T jorge) {
         try {
-            Thread.sleep(30000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        jorge.attemptsTo(Click.on(arrozIntegral));
-        jorge.attemptsTo(Click.on(frijolRojo));
-        jorge.attemptsTo(Click.on(proteinaEspinacaTomate));
-        jorge.attemptsTo(Click.on(proteinaPolloALaPlancha));
-        jorge.attemptsTo(Click.on(botonSiguiente));
-        jorge.attemptsTo(Click.on(acompanamientoPlatano));
-        jorge.attemptsTo(Click.on(acompanamientoPlatano));
-        jorge.attemptsTo(Click.on(acompanamientoTocineta));
-        jorge.attemptsTo(Click.on(acompanamientoChorizo));
-        jorge.attemptsTo(Click.on(botonSiguiente));
-        jorge.attemptsTo(Click.on(salsaHogao));
-        jorge.attemptsTo(Click.on(botonSiguiente));
-        jorge.attemptsTo(Click.on(gaseosaQuatro));
-        jorge.attemptsTo(Click.on(botonSiguiente));
-        jorge.attemptsTo(Click.on(galletaAvenaPasas));
-        jorge.attemptsTo(Click.on(botonSiguiente));
+        jorge.attemptsTo(Click.on(arrozIntegral),
+        Click.on(frijolRojo),
+        Click.on(proteinaEspinacaTomate),
+        Click.on(proteinaPolloALaPlancha),
+        Click.on(botonSiguiente),
+        Click.on(acompanamientoPlatano),
+        Click.on(acompanamientoPlatano),
+        Click.on(acompanamientoTocineta),
+        Click.on(acompanamientoChorizo),
+        Click.on(botonSiguiente),
+        Click.on(salsaHogao),
+        Click.on(botonSiguiente),
+        Click.on(gaseosaQuatro),
+        Click.on(botonSiguiente),
+        Click.on(galletaAvenaPasas),
+        Click.on(botonSiguiente));
 
     }
 
