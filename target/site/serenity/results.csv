@@ -1,3 +1,1 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"create different orders","User create order with menu personalizado","ERROR","2021-11-03T19:03:12.117546-05:00[America/Bogota]","0.0","77.33"
-"create different orders","User non-registered order with menu Fresco","ERROR","2021-11-03T19:05:46.16178-05:00[America/Bogota]","0.0","75.8"

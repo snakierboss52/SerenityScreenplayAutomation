@@ -29,8 +29,6 @@ V
 &src/main/java/Tasks/Personalizado.java,f/f/ff86ce92f5453bfcce388bdcdba73c36f37c9e8e
 R
 "src/main/java/Tasks/LoginUser.java,1/4/146043e08285cb0b50b54037d1ea4635707b7198
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 Q
 !src/main/java/Tasks/Register.java,0/c/0c33fe9c9d048b39377c73e3fbf276aa1a5c4fbb
 M

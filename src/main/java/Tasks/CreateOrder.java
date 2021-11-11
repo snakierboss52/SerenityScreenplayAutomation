@@ -30,7 +30,7 @@ public class CreateOrder implements Task {
         SeleccionarIngrediente.inIngredientes(),
         Ruleta.jugarRuleta(),
         Checkout.inFinalizarOrden());
-        jorge.attemptsTo(Ensure.that(ContinuarACaja.waitingForNoMoreThan(Duration.ofSeconds(5))).isEnabled());
+        jorge.attemptsTo(Ensure.that(ContinuarACaja.waitingForNoMoreThan(Duration.ofSeconds(5))).silently().isEnabled());
     }
 
     public static Performable finalizarOrden(String numberPhone) {

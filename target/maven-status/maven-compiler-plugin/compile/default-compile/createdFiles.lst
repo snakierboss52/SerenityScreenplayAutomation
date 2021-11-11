@@ -13,10 +13,12 @@ UserInterface/RegisterPage.class
 UserInterface/SugeridoPage.class
 Interactions/TheUserSelect.class
 UserInterface/MenuPage.class
+Tasks/CreateOrder.class
 Tasks/DondeVasAComer.class
 UserInterface/SeleccionarIngredientePage.class
 Tasks/Ruleta.class
 Tasks/Menu.class
+Questions/GetIdOrderQuestion.class
 Tasks/LoginUser.class
 UserInterface/RuletaPage.class
 Questions/LoginQuestion.class
