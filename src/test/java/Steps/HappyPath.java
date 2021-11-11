@@ -11,7 +11,7 @@ import cucumber.api.java.en.When;
 
 
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
-
+import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 
 public class HappyPath{
@@ -30,14 +30,7 @@ public class HappyPath{
         public void user_login_into_application_with_and_select_his_the_his_with(String numberPhone, String orderMode, String brand, String sugerido, String size) throws Throwable {
 
                 //theActorCalled("Jorge").attemptsTo(LoginUser.inApp());
-
-                theActorCalled("Jorge").wasAbleTo(LoginUser.inApp(numberPhone));
-                theActorCalled("Jorge").attemptsTo(DondeVasAComer.inOrderMode(orderMode));
-                theActorCalled("Jorge").attemptsTo(Menu.inPersonalizado());
-                theActorCalled("Jorge").attemptsTo(Personalizado.inTamanoMuy());
-                theActorCalled("Jorge").attemptsTo(SeleccionarIngrediente.inIngredientes());
-                theActorCalled("Jorge").attemptsTo(Ruleta.jugarRuleta());
-                theActorCalled("Jorge").attemptsTo(Checkout.inFinalizarOrden());
+                theActorInTheSpotlight().attemptsTo(CreateOrder.crearOrden());
                 Thread.sleep(3000);
 
 
