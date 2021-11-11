@@ -25,7 +25,3 @@ c
 3src/main/java/UserInterface/DondeVasAComerPage.java,f/8/f8da0cdd97d703e3ef2f04e63cea9f4bb671fca7
 b
 2src/main/java/UserInterface/PersonalizadoPage.java,1/6/161b67489a0da779163c837bd58a9acbbe0ad8dd
-Z
-*src/main/java/Questions/LoginQuestion.java,9/7/970bc801e00b69931ac4380d6323f401cce7d18d
-M
-src/test/java/Steps/Hook.java,2/0/20129a39c10b291c96ab7d34215ef07fe7565076

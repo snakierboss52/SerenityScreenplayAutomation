@@ -1,9 +1,8 @@
 package Questions;
 
-
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
-import net.serenitybdd.screenplay.questions.Text;
+
 
 import static UserInterface.LoginPage.emailStore;
 
@@ -17,8 +16,9 @@ public class LoginQuestion implements Question<String>{
         return null;
     }
 
+    //questions ambigua si no esta presente se revienta el test
     public static Question<String> loginQuestion() {
-        return Jorge -> Text.of(emailStore).viewedBy(Jorge).asString();
+        return Jorge -> emailStore.resolveFor(Jorge).waitUntilClickable();
     }
 
 

@@ -8,8 +8,8 @@ import net.serenitybdd.screenplay.Tasks;
 
 public class CreateOrder implements Task {
 
-    private String numberPhone;
-    private String orderMode;
+    private String numberPhone = "3005302178";
+    private String orderMode = "Para llevar";
 
     @Override
     public <T extends Actor> void performAs(T jorge) {
@@ -27,7 +27,7 @@ public class CreateOrder implements Task {
         Checkout.inFinalizarOrden());
     }
 
-    public static Performable finalizarOrden() {
+    public static Performable finalizarOrden(String numberPhone, String orderMode) {
         return Tasks.instrumented(CreateOrder.class);
     }
 
