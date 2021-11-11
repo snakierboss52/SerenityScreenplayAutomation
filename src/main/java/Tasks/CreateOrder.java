@@ -4,10 +4,7 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
-import net.serenitybdd.screenplay.actions.Click;
 
-import static UserInterface.RuletaPage.jugarDespues;
-import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 
 public class CreateOrder implements Task {
 

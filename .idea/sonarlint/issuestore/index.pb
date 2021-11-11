@@ -15,10 +15,6 @@ k
 ;src/main/java/UserInterface/SeleccionarIngredientePage.java,c/c/ccd9007d9716c392fefb358e5af6a84e74752220
 [
 +src/main/java/UserInterface/RuletaPage.java,0/7/075b1789f1ff376a7c685460512cd5c67efa1374
-O
-src/main/java/Tasks/Ruleta.java,7/3/73e2bf9d0ae12d2563832b0a6579f89083a48258
-Q
-!src/main/java/Tasks/Checkout.java,9/6/967d788709bd78c144ae3c3fa02bb354ae963a14
 ]
 -src/main/java/UserInterface/CheckoutPage.java,f/d/fdde9d04da34eaea2b4dc66656be3d2066db64c5
 Z
@@ -27,12 +23,8 @@ Z
 .src/main/java/UserInterface/LoginUserPage.java,0/c/0cb63d063734b1f776301895abf64af79da10489
 c
 3src/main/java/UserInterface/DondeVasAComerPage.java,f/8/f8da0cdd97d703e3ef2f04e63cea9f4bb671fca7
-W
-'src/main/java/Tasks/DondeVasAComer.java,1/e/1e1c3e81596213445b3cbc0bac9388b8bfb62432
 b
 2src/main/java/UserInterface/PersonalizadoPage.java,1/6/161b67489a0da779163c837bd58a9acbbe0ad8dd
-R
-"src/main/java/Tasks/LoginUser.java,1/4/146043e08285cb0b50b54037d1ea4635707b7198
 Z
 *src/main/java/Questions/LoginQuestion.java,9/7/970bc801e00b69931ac4380d6323f401cce7d18d
 M
