@@ -19,8 +19,6 @@ O
 src/main/java/Tasks/Ruleta.java,7/3/73e2bf9d0ae12d2563832b0a6579f89083a48258
 Q
 !src/main/java/Tasks/Checkout.java,9/6/967d788709bd78c144ae3c3fa02bb354ae963a14
-_
-/src/main/java/Tasks/SeleccionarIngrediente.java,8/2/82083a432f7d294d757ef4c4b0bd17c3febf2005
 ]
 -src/main/java/UserInterface/CheckoutPage.java,f/d/fdde9d04da34eaea2b4dc66656be3d2066db64c5
 Z

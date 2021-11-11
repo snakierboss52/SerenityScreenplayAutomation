@@ -30,7 +30,7 @@ public class CreateOrder implements Task {
         Checkout.inFinalizarOrden());
     }
 
-    public static Performable crearOrden() {
+    public static Performable finalizarOrden() {
         return Tasks.instrumented(CreateOrder.class);
     }
 

@@ -30,7 +30,7 @@ public class HappyPath{
         public void user_login_into_application_with_and_select_his_the_his_with(String numberPhone, String orderMode, String brand, String sugerido, String size) throws Throwable {
 
                 //theActorCalled("Jorge").attemptsTo(LoginUser.inApp());
-                theActorInTheSpotlight().attemptsTo(CreateOrder.crearOrden());
+                theActorInTheSpotlight().attemptsTo(CreateOrder.finalizarOrden());
                 Thread.sleep(3000);
 
 
